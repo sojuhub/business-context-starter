@@ -1,0 +1,24 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "business-context-starter",
+  "version": "0.3.2",
+  "description": "Set up a private business context and reuse it in the AI workspace you already use.",
+  "license": "MIT",
+  "keywords": [
+    "business-context",
+    "onboarding",
+    "small-business"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Business Context Starter",
+        "shortDescription": "Teach your AI your business, then keep working.",
+        "defaultPrompt": [
+          "Set up this AI workspace for my business."
+        ],
+        "category": "Productivity"
+      }
+    }
+  }
+}

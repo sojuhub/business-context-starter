@@ -1,0 +1,158 @@
+{
+  "schema_version": 1,
+  "version": "0.3.2",
+  "created_at": "2026-09-18T08:06:19.405438+00:00",
+  "intended_visibility": "private",
+  "intended_owner": "sojuhub",
+  "intended_repository": "business-context-starter",
+  "files": [
+    {
+      "path": ".agents/plugins/marketplace.json",
+      "sha256": "0bb78f1f4ee294f445c1a537011b1214d9d80f2eb60801b0f2ec16ca9892db9f"
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "sha256": "0aa5e348e1c63c7f9a5654b108d8830c292a9907baf51dea0ba910f6b35845cc"
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "d8173c75d9f47093e6a07de9b54d5ca5410c083819457e727cabbbb67ad4a93c"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "254e7f7a97c93e160c5dfcb0a0822ef2b0dc4c90ceebf4cecdf8fd876851ae99"
+    },
+    {
+      "path": "COPY_PROMPT.md",
+      "sha256": "4ecd9bc8a6c182e121ea373c05fd0b396930560d827d7d9379cfbdf7c8ef27b8"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "b437440c440339e4bed982b1a554ff6e61362eb1db8a0db6a4adbf5fad0beeb8"
+    },
+    {
+      "path": "PRIVATE_UPLOAD.md",
+      "sha256": "af522930e36ebfa2c08b31d590b5bdfa94e0e02cabbfc32cb42b4bc3f3fffe90"
+    },
+    {
+      "path": "README.md",
+      "sha256": "4320079df37cce4974f531f935a61212c60e01ea3cd6370ec30b7bfbf606b4dc"
+    },
+    {
+      "path": "START_HERE.md",
+      "sha256": "32d72d9ca78b3ccf2bdafff94216579bbf28d66beb8092eed58b21a0e1f50b8f"
+    },
+    {
+      "path": "TEST_RESULTS.md",
+      "sha256": "6f8db0fd43b417e6e70419694a92c3240a0f23ba6025e1571f5a38492cd556a3"
+    },
+    {
+      "path": "docs/ACCEPTANCE.md",
+      "sha256": "d8e1035f5b68e25556ef83561c8ec9f235083ed1355df197b4b62dbefe86a37d"
+    },
+    {
+      "path": "docs/HISTORICAL_TEST_RESULTS.md",
+      "sha256": "e4d8f8550dfb83e1895cdb5e3f70c020811302644553f33eedbdf498302aa29c"
+    },
+    {
+      "path": "docs/OPTIONAL_PLUGIN.md",
+      "sha256": "0fe1449e880a0ad9d7fabca2f74cc5676d17708850bd594f44ed4cc58b5302ca"
+    },
+    {
+      "path": "docs/PRODUCT_DECISION.md",
+      "sha256": "67f566e4c0f6d213bce1e42055a31c994764a3174a31d12098d3285edcdf7f3c"
+    },
+    {
+      "path": "docs/RELEASE_CHECKLIST.md",
+      "sha256": "6e1f663fb68a2d340266408444046f3dbe0af43bfc6b19f77db1b68da85a440f"
+    },
+    {
+      "path": "docs/SOURCES.md",
+      "sha256": "9677180612c603f5a35e600805daea964bbe85ffc5bf0dd98460e9fee10edd48"
+    },
+    {
+      "path": "examples/alder-cup-owner-brief.md",
+      "sha256": "f1f6917009c645357983b921f76db6a6fc6259ed7c3be253a756d9a3a3b27b8f"
+    },
+    {
+      "path": "plugins/business-context-starter/.claude-plugin/plugin.json",
+      "sha256": "e6fb62a1709fc80e21259b54f3134d5b04606e1b510f679bb0e74b4a39e8d61c"
+    },
+    {
+      "path": "plugins/business-context-starter/.codex-plugin/plugin.json",
+      "sha256": "0af3b2505a7e45137acebd0b2ae30c45b59957eb8cb1485e611044fdb116a492"
+    },
+    {
+      "path": "plugins/business-context-starter/LICENSE",
+      "sha256": "b437440c440339e4bed982b1a554ff6e61362eb1db8a0db6a4adbf5fad0beeb8"
+    },
+    {
+      "path": "plugins/business-context-starter/plugin.json",
+      "sha256": "df3759b8d6d504f46feec3b7483a626c25735861ce34e535ff7bf1131ee91226"
+    },
+    {
+      "path": "plugins/business-context-starter/references/CONTINUITY.md",
+      "sha256": "543f57261d1995d511800e986b1a5140467fdedc95a60e33d6279cde922e0cf4"
+    },
+    {
+      "path": "plugins/business-context-starter/references/PRIOR_CONTEXT.md",
+      "sha256": "e623feb440ed63887311a5708729ebf6cc229faa828ae0ad630cbc69eb9a8be8"
+    },
+    {
+      "path": "plugins/business-context-starter/references/SOURCE_HANDLING.md",
+      "sha256": "428b38b0114e3fed6e16d956e61e73d930eb851289159ca175d4319e01006f4f"
+    },
+    {
+      "path": "plugins/business-context-starter/references/WORKSPACE.md",
+      "sha256": "0e303e0eac382d2768aa78ea4869427a66c5e7ba73c8ece66f8fc278563d8064"
+    },
+    {
+      "path": "plugins/business-context-starter/scripts/context_bridge.py",
+      "sha256": "bf07a11aa9811b1c6a86d96d882fb6b42e5c4e0750ec8fcc2ece195871bbc778"
+    },
+    {
+      "path": "plugins/business-context-starter/skills/start/SKILL.md",
+      "sha256": "69a79781b09ab88ab7263a6bb926b75f0aec2f789e00cbf1c7703b44c90d2d2b"
+    },
+    {
+      "path": "plugins/business-context-starter/skills/use-business-context/SKILL.md",
+      "sha256": "f100f0a168cac2bcbf8d5b324c83a3f37cc22d080ad385c519398d721d4be206"
+    },
+    {
+      "path": "plugins/business-context-starter/third_party/README.md",
+      "sha256": "136af60e1dde695a76b63a42a55c667c9a120c5c97514ed9a977f28813d8760a"
+    },
+    {
+      "path": "plugins/business-context-starter/third_party/company-ai-os-LICENSE",
+      "sha256": "3f9fc8b1bf7d7b95ba3cc0e37d21a0173dc2bfe31904f59ce51e9c0128b5c49d"
+    },
+    {
+      "path": "plugins/business-context-starter/third_party/openai-context-skill-LICENSE",
+      "sha256": "7de1e115d165f176e68f962acdb809b5ab8d8ae78d3981e0701392b2ac50c713"
+    },
+    {
+      "path": "scripts/publish_private.py",
+      "sha256": "900143e3efed038f9f5a04f096f9821912cf9bdc2728d758b033982ee58dbd33"
+    },
+    {
+      "path": "tests/test_bridge.py",
+      "sha256": "c30bbdbef95cf2fa61438eb47948f61250ac46113953cb020ad33629562cda90"
+    },
+    {
+      "path": "tests/test_bridge_hardening.py",
+      "sha256": "c29b26bf5f6029074cab769966a84cb8cdf6b58b17ff4f8c7181b020d259fc67"
+    },
+    {
+      "path": "tests/test_copy_first.py",
+      "sha256": "bdfcf5569b95db9b744705db3d4a0ee568874c431cd62f324e23cdd5a102217d"
+    },
+    {
+      "path": "tests/test_package.py",
+      "sha256": "4f01746a3925badcc2b60e42f199321019789dce411cd56b9330b82f3f43ba2e"
+    },
+    {
+      "path": "tests/test_publish_private.py",
+      "sha256": "d216fcdc3b82beee2946abff44550ab0066f3e5272fa725c9896977d75bdc8d2"
+    }
+  ]
+}
