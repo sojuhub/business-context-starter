@@ -1,6 +1,6 @@
 {
   "name": "business-context-starter",
-  "version": "0.3.2",
+  "version": "0.4.0",
   "description": "Set up a private business context and reuse it in the AI workspace you already use.",
   "license": "MIT"
 }

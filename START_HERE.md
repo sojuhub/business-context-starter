@@ -1,10 +1,41 @@
-# Start from one pasted prompt
+# Start Business Onboarding
 
-Version: 0.3.1. First validation target: MacBook Codex. Product and saved business context: English.
+One repository-read workflow for Codex, Claude Code, Hermes and OpenClaw.
+This is a public instruction alpha. Native plugin loading and end-to-end behavior
+in every host are not verified by the package's offline tests.
 
-## For the owner
-Open this extracted folder in Codex and paste [COPY_PROMPT.md](COPY_PROMPT.md).
-You do not need to install a plugin before the first onboarding run. This local package is not yet published at a public repository URL.
+## For the business owner
+
+Paste [the short setup instruction](COPY_PROMPT.md) into the AI tool you already
+use. It will guide you. Start with a website, a selected document, or a few
+sentences about your business. You do not need to choose a technical setup.
+
+## Retrieve and prepare the starter
+
+For the agent: handle these details yourself using your existing GitHub, network
+and filesystem tools. Do not ask the owner to choose between host-specific paths.
+
+1. Use only `https://github.com/sojuhub/business-context-starter`. If the matching
+   package is already available, reuse it without overwriting local changes.
+2. Otherwise resolve the repository's current default-branch HEAD to a full commit
+   SHA once, record it, and retrieve START_HERE.md and referenced package files at
+   that SAME commit. Use a host-approved checkout or file fetch. A stable public
+   URL is the customer's entry point; the resolved revision is the run's source.
+3. Inspect the files before executing anything. The default route is reading the
+   instructions, not installing a native plugin or creating another app. There is
+   no application dependency install. Python 3.10+ is needed only if using the
+   existing optional local context bridge. No curl-to-shell or global installs.
+4. Preserve the selected project and its instructions. Prepare public starter
+   files in a separate task-local folder if needed; keep private company knowledge
+   out of the starter checkout and plugin caches. Reuse an existing business wiki.
+5. If the host cannot read the repository or write local files, explain the one
+   missing capability and offer the same downloaded package. Do not guess that a
+   different repository or an unverified install succeeded. Continue conversation
+   from the approved source material when possible.
+6. Once the files are available, follow the same onboarding below in all four
+   agents. Ask only about missing business context, private-source scope or a
+   consequential change. Do the supported setup work; leave only login/consent
+   actions to the account holder when necessary.
 
 ## For the agent reading this file
 This is an onboarding run, not a request to invent an AIOS application or a migration platform.
@@ -14,8 +45,8 @@ Use the existing files in this package. If the package cannot be found, ask for 
 2. Preserve the host's existing instructions, permissions, tools, account connections and memory controls. Do not make native plugin installation a prerequisite to a useful first result. Label this route `instruction-mode` unless native loading is actually verified.
 3. Establish the real company and selected project using already supplied information. Use the current project when appropriate; do not treat this public starter checkout as the private business workspace. Ask for approved private input paths and output destination before reading or writing them.
 4. Offer prior-context reuse as part of the same onboarding. Existing curated company files come first. When switching agents, inspect which native import is supported and preview its scope before any approved change. Otherwise use the current host's approved access or user-selected exports. Never assume ChatGPT web memory is Codex local memory. Never rewrite generated native memory stores.
-5. Show a short company preview, then offer the relevant real sources: website, files, email, calendar, social, booking and sales tools. Reuse working connectors. Record access, actual reading, coverage and freshness separately. An export that is not ready must not block other approved sources.
-6. Merge source-linked business facts, tone, owner-confirmed policies, decisions and workflow references into the existing company wiki. Create the minimum private Markdown workspace only if there is none. A fresh workspace never means erasing the old setup.
+5. Start with one easy approved source or short business explanation; a website is optional. Show a short company preview, then discover daily tools and relevant sources through short, adaptive questions. Follow the start skill's agent-owned setup and optional-provider flow. Reuse working connectors. Record access, actual reading, coverage and freshness separately. An export that is not ready must not block other approved sources.
+6. Apply the source-handling evidence checks and automatically include qualifying facts in one reviewable business brief; ask only about consequential ambiguity/conflicts. After owner review, merge accepted facts, tone, policies, decisions and workflow references into the existing company wiki. Create the minimum private Markdown workspace only if there is none. A fresh workspace never means erasing the old setup.
 7. Show review items and preserve uncertainty. Use the continuity helper only after a necessary project-only diff is reviewed and approved. Never overwrite project instructions, create a priority override, clear memories or change global configuration.
 8. Produce one useful draft. Guide a new-session test of the saved context and a test of unrelated existing work. Do not report these tests passed unless they actually ran.
 

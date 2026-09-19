@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "version": "0.3.2",
-  "created_at": "2026-09-18T08:06:19.405438+00:00",
-  "intended_visibility": "private",
+  "version": "0.4.0",
+  "created_at": "2026-09-19T01:07:20.471701+00:00",
+  "intended_visibility": "public",
   "intended_owner": "sojuhub",
   "intended_repository": "business-context-starter",
   "files": [
@@ -20,35 +20,31 @@
     },
     {
       "path": "CHANGELOG.md",
-      "sha256": "254e7f7a97c93e160c5dfcb0a0822ef2b0dc4c90ceebf4cecdf8fd876851ae99"
+      "sha256": "0765b5b7ea6b4ad288164a8c38f179c6752b0ea947b3b50adeec497fde26875d"
     },
     {
       "path": "COPY_PROMPT.md",
-      "sha256": "4ecd9bc8a6c182e121ea373c05fd0b396930560d827d7d9379cfbdf7c8ef27b8"
+      "sha256": "582acb01c1c4ac9631b34511f3e405ec195696a980a953da9ab97861f4cffb86"
     },
     {
       "path": "LICENSE",
       "sha256": "b437440c440339e4bed982b1a554ff6e61362eb1db8a0db6a4adbf5fad0beeb8"
     },
     {
-      "path": "PRIVATE_UPLOAD.md",
-      "sha256": "af522930e36ebfa2c08b31d590b5bdfa94e0e02cabbfc32cb42b4bc3f3fffe90"
-    },
-    {
       "path": "README.md",
-      "sha256": "4320079df37cce4974f531f935a61212c60e01ea3cd6370ec30b7bfbf606b4dc"
+      "sha256": "f7eb60544b88204b15dfe462218760cd5c11314fb27acb66d89428e34a3d67cb"
     },
     {
       "path": "START_HERE.md",
-      "sha256": "32d72d9ca78b3ccf2bdafff94216579bbf28d66beb8092eed58b21a0e1f50b8f"
+      "sha256": "a29c386add92dd83287a64de105c8056b48163584ee99be5676c3cddf3142398"
     },
     {
       "path": "TEST_RESULTS.md",
-      "sha256": "6f8db0fd43b417e6e70419694a92c3240a0f23ba6025e1571f5a38492cd556a3"
+      "sha256": "396e85cc64ae5b3befd9dd363d2f581426ab8dae48f385971cea5b6207b39a2e"
     },
     {
       "path": "docs/ACCEPTANCE.md",
-      "sha256": "d8e1035f5b68e25556ef83561c8ec9f235083ed1355df197b4b62dbefe86a37d"
+      "sha256": "05391dc30d86d7c0bf23acebbe82cd874ff416d3b899334109a87dbc0fa9b971"
     },
     {
       "path": "docs/HISTORICAL_TEST_RESULTS.md",
@@ -56,15 +52,15 @@
     },
     {
       "path": "docs/OPTIONAL_PLUGIN.md",
-      "sha256": "0fe1449e880a0ad9d7fabca2f74cc5676d17708850bd594f44ed4cc58b5302ca"
+      "sha256": "c424077fa9f41315566d31bcaed9b32faae200088cdb76c61e940c0c4fd46a60"
     },
     {
       "path": "docs/PRODUCT_DECISION.md",
-      "sha256": "67f566e4c0f6d213bce1e42055a31c994764a3174a31d12098d3285edcdf7f3c"
+      "sha256": "ecb60db78efe4806bd056423dbbbbc7cfb786c9ac0fce3ad035d5aed5c29b374"
     },
     {
       "path": "docs/RELEASE_CHECKLIST.md",
-      "sha256": "6e1f663fb68a2d340266408444046f3dbe0af43bfc6b19f77db1b68da85a440f"
+      "sha256": "600dc54cb66d10aef03f02d0bebf1bf18548d4c0065c5eeb95f2256ce29bdda0"
     },
     {
       "path": "docs/SOURCES.md",
@@ -76,11 +72,11 @@
     },
     {
       "path": "plugins/business-context-starter/.claude-plugin/plugin.json",
-      "sha256": "e6fb62a1709fc80e21259b54f3134d5b04606e1b510f679bb0e74b4a39e8d61c"
+      "sha256": "1c4b48ea0b3902c531147461319357e278fcb12a354ab9807f2786e0bae3a7de"
     },
     {
       "path": "plugins/business-context-starter/.codex-plugin/plugin.json",
-      "sha256": "0af3b2505a7e45137acebd0b2ae30c45b59957eb8cb1485e611044fdb116a492"
+      "sha256": "2f067d502ecd8327a8b88ca5108d2d97ff3ca5f19128d1c084a16220eeaf38ca"
     },
     {
       "path": "plugins/business-context-starter/LICENSE",
@@ -88,7 +84,7 @@
     },
     {
       "path": "plugins/business-context-starter/plugin.json",
-      "sha256": "df3759b8d6d504f46feec3b7483a626c25735861ce34e535ff7bf1131ee91226"
+      "sha256": "301e8ecc8abd09ccb1c8a10625195419305174ad04d8ea5a64de156cf04c1c6a"
     },
     {
       "path": "plugins/business-context-starter/references/CONTINUITY.md",
@@ -96,11 +92,11 @@
     },
     {
       "path": "plugins/business-context-starter/references/PRIOR_CONTEXT.md",
-      "sha256": "e623feb440ed63887311a5708729ebf6cc229faa828ae0ad630cbc69eb9a8be8"
+      "sha256": "3c3b38c15fc4f3fd919c698164afc67ddf66e0ced34554540d8a166a9cbf9145"
     },
     {
       "path": "plugins/business-context-starter/references/SOURCE_HANDLING.md",
-      "sha256": "428b38b0114e3fed6e16d956e61e73d930eb851289159ca175d4319e01006f4f"
+      "sha256": "9ed6213d76e7c5c3be9a9cef9508f424a34d92ac1c1cd356b33dfa17251376ed"
     },
     {
       "path": "plugins/business-context-starter/references/WORKSPACE.md",
@@ -112,11 +108,11 @@
     },
     {
       "path": "plugins/business-context-starter/skills/start/SKILL.md",
-      "sha256": "69a79781b09ab88ab7263a6bb926b75f0aec2f789e00cbf1c7703b44c90d2d2b"
+      "sha256": "41d9352582a295b3119b467a3f04fed13682b8fc9afa58aae489d378cddbda4b"
     },
     {
       "path": "plugins/business-context-starter/skills/use-business-context/SKILL.md",
-      "sha256": "f100f0a168cac2bcbf8d5b324c83a3f37cc22d080ad385c519398d721d4be206"
+      "sha256": "dad7c5b75eaec06c0b5918d5c0a81e45ebc95ad54bac54afc9d7b3296ae031d0"
     },
     {
       "path": "plugins/business-context-starter/third_party/README.md",
@@ -131,10 +127,6 @@
       "sha256": "7de1e115d165f176e68f962acdb809b5ab8d8ae78d3981e0701392b2ac50c713"
     },
     {
-      "path": "scripts/publish_private.py",
-      "sha256": "900143e3efed038f9f5a04f096f9821912cf9bdc2728d758b033982ee58dbd33"
-    },
-    {
       "path": "tests/test_bridge.py",
       "sha256": "c30bbdbef95cf2fa61438eb47948f61250ac46113953cb020ad33629562cda90"
     },
@@ -144,15 +136,11 @@
     },
     {
       "path": "tests/test_copy_first.py",
-      "sha256": "bdfcf5569b95db9b744705db3d4a0ee568874c431cd62f324e23cdd5a102217d"
+      "sha256": "b3fa45bfb0535914b3c0ae953c153d86bb1c6744d7d2e4d0ff748a0212c80a16"
     },
     {
       "path": "tests/test_package.py",
-      "sha256": "4f01746a3925badcc2b60e42f199321019789dce411cd56b9330b82f3f43ba2e"
-    },
-    {
-      "path": "tests/test_publish_private.py",
-      "sha256": "d216fcdc3b82beee2946abff44550ab0066f3e5272fa725c9896977d75bdc8d2"
+      "sha256": "de22a737303688e331cbec71694cf58294f9efd05b45973a78485ea3ac7a01ef"
     }
   ]
 }

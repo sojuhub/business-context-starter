@@ -55,7 +55,8 @@ class PackageTests(unittest.TestCase):
     def test_status_and_onboarding_bounds_visible(self):
         self.assertIn('NOT YET RUN',(ROOT/'docs/ACCEPTANCE.md').read_text())
         readme=(ROOT/'README.md').read_text()
-        self.assertIn('not a published or end-to-end validated product',readme)
+        self.assertIn('public instruction alpha',readme)
+        self.assertIn('End-to-end host behavior remains unverified',readme)
         s=(PLUGIN/'skills/start/SKILL.md').read_text()
         self.assertIn('No global instruction changes',s)
         self.assertIn('Do not replace requested real integration with fabricated',s)

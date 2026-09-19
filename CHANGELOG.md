@@ -1,6 +1,13 @@
 # Changelog
 
+## 0.4.0 — public instruction alpha
+- Published the existing Business Onboarding repository as the single public entry point.
+- Added one short repository-read prompt for Codex, Claude Code, Hermes and OpenClaw.
+- Kept native plugin loading, account connections and end-to-end host behavior explicitly unverified.
+- Removed the obsolete new-private-repository upload route from the public package.
+
 ## 0.3.2 — private-upload preparation
+- Historical release notes for the private pilot; the publisher files from this release are not part of the public package.
 - Reproduced the original 38 local tests.
 - Fixed large-instruction receipt/plan size handling and preflight output limits.
 - Reject malformed JSON state/plan objects without an unhandled traceback.

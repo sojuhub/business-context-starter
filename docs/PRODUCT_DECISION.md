@@ -1,7 +1,7 @@
 # Product decision — copy-paste first
 
 ## Supersedes the v0.3 entry-point decision
-The user-facing entry is a short prompt pasted into Codex, not native plugin installation or a terminal installer. Retain the existing plugin internals as optional packaging. Do not build a second platform.
+The user-facing entry is one short repository-read prompt pasted into Codex, Claude Code, Hermes or OpenClaw. The same onboarding instructions and private workspace contract apply in all four hosts; native plugin installation remains optional packaging. Do not build a second platform.
 
 ## Product promise
 Reuse what the owner already has, identify what matters to this business, connect only the sources needed, and prepare the existing AI workspace to use reviewed company context in later work.
@@ -24,6 +24,9 @@ A source archive being imported does not prove complete memories were transferre
 Ask only missing questions. Show useful company understanding before demanding all integrations. Offer prior AI work inside onboarding rather than as a separate setup product. Export preparation or one unavailable connector must not block progress on approved sources.
 Owners choose the company, permit data access and review business meaning. They do not choose graph engines, file taxonomies or a connector framework.
 
+## Host boundary
+The public 0.4.0 route is instruction-led and host-neutral. It supports the same repository-read entry for Codex, Claude Code, Hermes and OpenClaw. Native plugin loading, account connectors and end-to-end behavior in each host remain unverified and must be tested separately before being advertised as supported runtime behavior.
+
 ## Success and limits
 Success means the next session can find the right company, relevant facts and an ongoing correction without old transcript replay, while unrelated work and prior host behavior remain intact.
-A local instruction-mode run is not native plugin loading. Static packaging tests are not behavioral verification. Public release waits for the actual Mac run and publication review.
+The public instruction alpha is not native plugin loading or end-to-end host verification. Static packaging tests are not behavioral verification. Fresh-session reuse, provider setup and account behavior remain acceptance work.

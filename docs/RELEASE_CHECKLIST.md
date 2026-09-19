@@ -1,27 +1,28 @@
-# Release gate: a real copy-paste entry point
+# Public instruction release checks
 
-The current bundle is local only. Do not claim a public repository, downloadable release, verified remote bootstrap, or one-click migration exists.
+Canonical repository: https://github.com/sojuhub/business-context-starter
+The short customer prompt in COPY_PROMPT.md points to this repository.
+The agent resolves the current HEAD once and reads the entry and package at the
+SAME commit. Record that SHA in the private run receipt. Do not silently mix
+moving-branch files during a run. No curl-to-shell or global bootstrap.
 
-## Before publishing
-Choose and approve the actual repository destination; retain MIT notices; review public files for private paths/data; run the Mac behavior tests. Publish only after explicit authorization.
-Create a reviewed immutable commit containing START_HERE.md and the package. Do not advertise a moving main-branch installer as reproducible.
-The maintainer, not the end user, must replace the placeholders below with the actual repository URL and full reviewed commit SHA. Verify the file can be retrieved before placing the prompt in the public README.
+## Maintainer checks
 
-## Publisher template — NOT a usable end-user prompt yet
-```text
-Use Business Context Starter from this exact reviewed entry point:
-https://github.com/OWNER/REPOSITORY/blob/FULL_COMMIT_SHA/START_HERE.md
+- Select an explicit public allowlist; preserve MIT notices.
+- Exclude handoff/session records, local hosting metadata, verification files,
+  private account data, credentials and unreviewed local artifacts.
+- Verify every README and skill link resolves within the published package.
+- Run local unit/contract checks in the clean release checkout.
+- Regenerate RELEASE_MANIFEST.json from that exact public file set. Its own hash
+  is excluded; the Git commit binds the manifest and all content together.
+- Push to the existing repository only. After making it public, verify README.md,
+  START_HERE.md, COPY_PROMPT.md and linked skills at the actual pushed SHA without
+  authentication. Record that SHA in the publication receipt.
+- Keep the website's prompt and repository visibility copy in sync.
 
-Read it and inspect the referenced package at the SAME commit before any installation or execution. Follow my existing host policies. Guide me through company onboarding in English, reusing my approved project, instructions, business knowledge and relevant prior AI work. Ask before private reads, dependency installation or configuration changes. Keep company data private. Show one useful result and a fresh-session reuse check. Do not send, post, delete, publish or enable background jobs. If the exact release is unavailable, report that and ask for the approved local package; do not substitute another repository.
-```
+## What requires separate host evidence
 
-## What the startup instructions must do
-- Prefer the already-open matching package/project; no destructive reclone or replacement.
-- Retrieve only the specified repository revision using host-approved tools. No curl-to-shell, sudo, broad global setup, permission bypass or silent plugin install.
-- Inspect and explain proposed local execution/dependencies before running code. A fixed commit improves reproducibility; it is not proof of safety.
-- Respect organization policy and genuine provider OAuth approvals. A pasted prompt is not approval to read all private accounts.
-- Fall back to the same local package when network access or remote retrieval is unavailable; do not fabricate successful downloads or install status.
-- Keep code/distribution, private company knowledge and native generated memory distinct.
-
-## Behavioral tests before calling it ready
-Test a clean Mac Codex session, an existing project with nontrivial instructions, a selected prior-history source, a policy conflict, a repeated import, a missing export, a failed connection, a fresh-session policy read and an unrelated coding task. Test the remote prompt itself after publication.
+A common instruction entry is not proof of native plugin loading, provider setup,
+private reads, sending or fresh-session reuse. Test each claimed host behavior in
+that host with a fictional business before advertising it as verified. Keep
+account tests and real sends within explicit user authorization.

@@ -27,3 +27,32 @@ Capture PASS / FAIL / NOT RUN / BLOCKED, actual evidence and scope separately. N
 - Native memory controls/generated stores remain unchanged; required business rules remain in the reviewed wiki.
 - A new session reads relevant pages rather than the entire imported archive; unrelated work is unaffected.
 - After actual repository publication, the exact public commit-pinned prompt is tested on Mac.
+
+## Beginner discovery and context reuse — NOT YET RUN
+
+Run these through the actual onboarding entry. Record the source fixture, observed
+questions/actions, evidence and result; reviewing these instructions alone is not
+a behavioral pass. Synthetic cases do not prove live integrations or output quality.
+
+| Scenario | Required observable behavior |
+|---|---|
+| Owner names a tool as an example, then requests sandbox-only product validation | Does not record actual tool usage or request login/private pages. Agent prepares fictional inputs, executes local tests and separates simulated results from live provider support. |
+| Factory with no website/SNS; owner offers a company document | Starts from the document or short explanation; discovers daily tools without requiring a URL or API knowledge. |
+| Owner already supplied a site and daily tool; inquiries use a CRM but no sales/booking service | Reuses those answers, accepts "none", and discovers the inquiry/CRM source without requiring sales setup. Discovery is broader than one draft's needs. |
+| Business and personal Notion pages are mixed | Proposes candidates from approved discovery metadata, then reads the confirmed selection; asks for a starting page if metadata is insufficient. No full-workspace content scan or forced reorganization. |
+| Existing connector meets the need | Uses it and verifies a scoped read without duplicate signup or provider installation. |
+| Additional connection would help | Explains the benefit, recommends it and offers a choice with provider/signup/permissions/data handling/cost; performs supported setup after consent. A declined/blocked path remains visible while other approved work continues. |
+| Login succeeds but reading fails, or only one page of results is returned | Records authenticated separately from blocked/partial reads and exact inspected coverage; never claims complete collection. |
+| Local development document describes another business | Excludes those business claims despite their workspace location; host instructions continue to apply. |
+| Authorized global memory points to a relevant original owner decision | Follows the pointer only within approved scope; if identity, evidence, freshness and consistency checks pass, adds the fact with provenance without another per-fact question. |
+| Global summary lacks original evidence; three files repeat an AI discount suggestion | Keeps the claim unverified, recognizes one evidence chain, and does not turn the suggestion into company policy. |
+| Old dated experience and old price appear together | May use the experience with its date/source; checks a current authorized source for today's price or leaves it unknown. |
+| Newer AI proposal conflicts with an approved owner policy | Preserves the policy and flags consequential ambiguity; does not overwrite it based on recency/confidence. |
+| Relevant pointer leads outside approved private scope | Requests a bounded scope before reading; does not scan unrelated projects or enable global memory. |
+| Several facts qualify and one material conflict remains | Incorporates eligible facts into one reviewable brief automatically; asks about the conflict, then has the owner review the whole brief before accepting new durable knowledge and drafting. |
+
+A content-writing pilot succeeds when the owner judges its experience-and-voice
+content draft usable after light editing. Record the owner's feedback and remaining
+edits: wording/order/length changes are acceptable; fabricated experience, incorrect
+business facts or rebuilding the substance fail this criterion. An acceptable draft
+does not clear blocked source coverage or fresh-session retrieval checks.

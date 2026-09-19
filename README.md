@@ -1,59 +1,95 @@
-# Business Context Starter
+# Business Onboarding
 
-**Bring what your AI already knows about your business into the work you do next.**
+You know your business. Give your AI the details it needs to help.
 
-v0.3.2 — copy-paste-first local pilot, not a published or end-to-end validated product.
-First acceptance target: MacBook Codex. Product and business outputs: English.
+Business Onboarding guides your existing AI through learning your prices,
+policies, customers and ways of working. You review what it learns and keep
+readable business notes for later work.
 
-## Start with one prompt
-For this local pilot, open the extracted folder in Codex and paste:
+[See the website](https://business-onboarding.sojulee.chatgpt.site) ·
+[Try the examples](https://business-onboarding.sojulee.chatgpt.site/examples.html) ·
+[Get help](https://business-onboarding.sojulee.chatgpt.site/contact.html)
+
+## Start with one message
+
+Copy this into **Codex, Claude Code, Hermes or OpenClaw**:
 
 ```text
-Read START_HERE.md in this Business Context Starter folder and guide me through setup in English. Run the existing onboarding; do not build another app or require plugin installation first.
-
-Reuse my current project, instructions, skills, connections and company knowledge. Offer to bring in relevant prior AI conversations or memories using supported imports or exports; explain what is and is not available, and do not scan unrelated history.
-
-Ask before private reads or configuration changes. Keep business knowledge private, source-linked and separate from this public package. Show one useful business result, then guide a fresh-session check without disrupting unrelated work. Ask only for missing information. Do not send, post, delete, publish or enable background jobs.
+Read https://github.com/sojuhub/business-context-starter, set it up in my current workspace, and guide me through business onboarding.
 ```
 
-The public release will replace the local-file opening line with the actual reviewed, commit-pinned repository entry point. No public URL has been created. Maintainers: see `docs/RELEASE_CHECKLIST.md`; do not ship an OWNER/REPO placeholder to users.
+Your AI reads the starter and handles the available local setup. You answer the
+business questions. No manual clone command, tool selection or plugin installation
+is required for this instruction-based route.
 
-## What happens
-Reuse the selected business setup → bring in approved prior AI context and business sources → review the smallest useful company wiki → create one useful result → reuse the context in later work.
+**For agents:** begin with [START_HERE.md](START_HERE.md). Resolve and record one
+repository revision and read the linked onboarding skill from that same revision.
+Do not build another application. Keep private business records outside this repo.
 
-Use an existing company workspace by default. Offer a separate clean workspace only when requested or when there is no suitable one. Preserve originals and prior memories in either route.
-Prior conversations are evidence, not a current policy database. AI suggestions are not owner decisions. Native imports and exports are reused where available rather than replaced by a new universal migration engine.
+## What happens next
 
-## What is reused
-The v0.3 package structure, two internal skills, v0.2 continuity helper and original notices are retained. The plugin is an optional distribution form, not the user's first required step.
-No new agent team, graph/vector service, custom OAuth server, chat application, global memory replacement or background watcher is added.
+1. **Tell it about your business.** A website, a selected document or a short
+   explanation is enough to start. You choose any private material it may read.
+2. **Check what it learned.** Review the facts, policies and missing information.
+3. **Try it on your work.** Get one useful draft based on the approved information.
+   Check that a new session can find the same business notes.
 
-## What is implemented versus described
-- Implemented: existing reviewed local project-bridge helper; copy-first entry instructions; prior-context handling procedure; minimal wiki contracts.
-- Tested locally: see `TEST_RESULTS.md` for exact test results and limits.
-- Not implemented: a universal export parser, account authentication UI, direct ChatGPT-memory API, graph engine, automatic sync, or SaaS.
-- Not tested here: live accounts, native imports, real archives, plugin loading, model behavior, Mac fresh-session reuse or beginner usability.
+The agent reuses your project, instructions and working connections. It performs
+supported setup itself, asking you for account login or consent when necessary.
+It must report unavailable tools and unverified reads clearly.
 
-## Privacy and ownership
-Company files, exports, raw mail, credentials and customer records stay outside this public package and outside the plugin cache. Original archives are kept at approved private locations; only necessary evidence and reviewed knowledge are added to the working wiki.
-The starter does not erase native memories or disable account controls. A project pointer is added only when needed and approved. Removing the starter does not delete company knowledge.
+## What this release does
 
-## Test locally
-The bridge helper and tests require Python 3.10+; there are no new dependencies.
+This is a **public instruction alpha**. It provides the same repository-read
+onboarding path for all four agents, a private workspace contract, synthetic
+examples and a local project-link helper with plan/apply/rollback.
+
+The shared instruction path does not mean native plugins or account connectors
+are identical across hosts. **End-to-end host behavior remains unverified.**
+Offline tests do not run actual AI sessions, read business accounts or prove
+fresh-session reuse. See [acceptance checks](docs/ACCEPTANCE.md).
+
+The website shows simulated email and SMS workflows. This starter first prepares
+business context and a reviewed draft; actual sending requires separately
+configured tools and explicit permissions. Installing or reading this package
+does not authorize messages, bookings, publication or background jobs.
+
+## What you keep
+
+- Readable business notes and policies with their sources.
+- Unknowns and conflicting information left visible for your review.
+- One useful draft and a record of what was actually connected or read.
+- Your existing project and unrelated coding workflow.
+
+Live orders, bookings and payments remain in the systems that own them. Business
+notes are not a second transaction database. A local file does not mean the AI
+model processes data only on your device.
+
+## For developers
+
+The main route is [START_HERE.md](START_HERE.md) and the existing
+[start skill](plugins/business-context-starter/skills/start/SKILL.md).
+The [use-business-context skill](plugins/business-context-starter/skills/use-business-context/SKILL.md)
+handles later business work without repeating onboarding.
+
+The optional bridge uses Python 3.10+ and the standard library:
+
 ```sh
 python3 -m unittest discover -s tests -v
+python3 plugins/business-context-starter/scripts/context_bridge.py --help
 ```
 
-## Optional distribution
-Native plugin metadata is retained. Installation is neither account authorization nor proof of correct future behavior. See `docs/OPTIONAL_PLUGIN.md` for the earlier developer route and verify current host support before changing anything.
+It proposes additive changes to existing project instructions. Review the diff
+before applying it. It does not grant filesystem access or install connectors.
+See [optional native packaging](docs/OPTIONAL_PLUGIN.md),
+[source handling](plugins/business-context-starter/references/SOURCE_HANDLING.md),
+[release verification](docs/RELEASE_CHECKLIST.md), and
+[the fictional cafe brief](examples/alder-cup-owner-brief.md).
 
-## Private GitHub upload
-This delivery has **not** been uploaded from ChatGPT. The connected GitHub tool
-exposes reads but no repository-create or file-write action in this session.
-Use [PRIVATE_UPLOAD.md](PRIVATE_UPLOAD.md) from a Mac with an authenticated GitHub CLI.
-The helper creates a NEW private repository, validates visibility before pushing,
-uploads only hash-allowlisted release files, and verifies the remote commit.
-It never reuses/overwrites an existing repository or changes visibility.
+## License and provenance
 
-GitHub Actions is configured for Ubuntu and macOS with Python 3.10/3.13;
-remote runs and Mac Codex behavior remain unverified until executed there.
+MIT. Upstream notices are retained in the package's `third_party` directory.
+See [sources](docs/SOURCES.md). Business Onboarding is independent and is not
+endorsed by the featured AI providers. No private business data belongs here.
+
+For setup questions: [business@sojulee.com](mailto:business@sojulee.com).
