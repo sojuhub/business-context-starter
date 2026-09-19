@@ -1,5 +1,11 @@
 # Changelog
 
+## Unreleased
+- Validate source-linked business context compilation and preserve owner edits.
+- Add bounded offline Google Drive, Gmail and Square response mappings.
+- Add opt-in fictional-business Codex session checks and document observed limits.
+- Pass 90 offline checks; live providers and other host runtimes remain unverified.
+
 ## 0.4.0 — public instruction alpha
 - Published the existing Business Onboarding repository as the single public entry point.
 - Added one short repository-read prompt for Codex, Claude Code, Hermes and OpenClaw.

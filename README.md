@@ -45,9 +45,11 @@ onboarding path for all four agents, a private workspace contract, synthetic
 examples and a local project-link helper with plan/apply/rollback.
 
 The shared instruction path does not mean native plugins or account connectors
-are identical across hosts. **End-to-end host behavior remains unverified.**
-Offline tests do not run actual AI sessions, read business accounts or prove
-fresh-session reuse. See [acceptance checks](docs/ACCEPTANCE.md).
+are identical across hosts. **End-to-end host behavior remains unverified for live
+business accounts and across all advertised hosts.** Local development has tested
+saved-context retrieval in fresh Codex CLI sessions for three fictional businesses;
+see [the exact scope](docs/LOCAL_VALIDATION.md). Offline unit tests alone do not
+establish that result. See [remaining acceptance checks](docs/ACCEPTANCE.md).
 
 The website shows simulated email and SMS workflows. This starter first prepares
 business context and a reviewed draft; actual sending requires separately
@@ -78,6 +80,12 @@ The optional bridge uses Python 3.10+ and the standard library:
 python3 -m unittest discover -s tests -v
 python3 plugins/business-context-starter/scripts/context_bridge.py --help
 ```
+
+The optional [context compiler](plugins/business-context-starter/references/COMPILE_CONTEXT.md)
+materializes a source-linked model plan in an approved private directory and
+refuses to overwrite owner edits. Developer-only [provider fixtures](docs/PROVIDER_FIXTURES.md)
+exercise collection mappings without accounts. [Runtime checks](docs/LOCAL_VALIDATION.md)
+use fictional inputs and explicitly opt in to actual Codex inference.
 
 It proposes additive changes to existing project instructions. Review the diff
 before applying it. It does not grant filesystem access or install connectors.

@@ -1,0 +1,20 @@
+{
+  "messages": [
+    {
+      "id": "gmail-metadata-only",
+      "snippet": "A snippet is not the full message body.",
+      "payload": {"mimeType": "text/plain", "body": {}}
+    },
+    {
+      "id": "gmail-attachment-only",
+      "payload": {
+        "mimeType": "multipart/mixed",
+        "parts": [
+          {"mimeType": "application/pdf", "filename": "invoice.pdf",
+           "body": {"attachmentId": "attachment-1"}}
+        ]
+      }
+    }
+  ],
+  "nextPageToken": null
+}

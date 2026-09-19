@@ -1,0 +1,16 @@
+{
+  "messages": [
+    {
+      "id": "gmail-message-1",
+      "raw": "U3ViamVjdDogSGVsbG8KQ29udGVudC1UeXBlOiB0ZXh0L3BsYWluOyBjaGFyc2V0PXV0Zi04CgpIaSBmcm9tIHRoZSBjdXN0b21lci4K"
+    },
+    {
+      "id": "gmail-message-2",
+      "payload": {
+        "mimeType": "text/plain",
+        "body": {"data": "UGxhaW4gYm9keSBmcm9tIEdtYWls"}
+      }
+    }
+  ],
+  "nextPageToken": "gmail-page-2"
+}

@@ -2,6 +2,12 @@
 
 These are test scenarios, not passed results. Use the synthetic example for public demos; isolate real account testing in a private workspace.
 
+Local update, 2026-09-19: [fictional Codex instruction-mode checks](LOCAL_VALIDATION.md)
+now cover source-grounded compilation, an explicit synthetic correction, actual
+saved-policy reads in a fresh session, three initial discovery questions and one
+unrelated-task probe. The full scenarios below, native loading and real-account
+behavior remain unrun; do not promote those limited checks to a blanket PASS.
+
 1. New Mac Codex user: load the plugin through the actual supported host path and record host/version, loaded skill names and installation scope.
 2. Existing Codex project: preserve existing commands, rules and wiki; ensure no duplicate bridge or connection is created.
 3. Real Gmail: approve company/account/filter/period, read actual messages, verify no send/label/read-state writes.

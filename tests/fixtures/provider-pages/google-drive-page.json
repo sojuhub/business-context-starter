@@ -1,0 +1,19 @@
+{
+  "files": [
+    {
+      "id": "drive-brief-1",
+      "name": "owner-brief.txt",
+      "mimeType": "text/plain",
+      "webViewLink": "https://drive.google.com/file/d/drive-brief-1/view",
+      "text": "The fictional cafe opens at 08:00."
+    },
+    {
+      "id": "drive-doc-2",
+      "name": "menu",
+      "mimeType": "application/vnd.google-apps.document",
+      "exported_mime_type": "text/plain",
+      "exported_text": "Seasonal menu is reviewed monthly."
+    }
+  ],
+  "nextPageToken": "drive-page-2"
+}

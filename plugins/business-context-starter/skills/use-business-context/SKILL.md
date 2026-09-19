@@ -18,6 +18,9 @@ metadata:
 6. Policies, products, and definitions can come from reviewed files. Availability, current revenue, current prices, and current order status need appropriately fresh authorized sources. No snapshot-as-live claims.
 7. Do not re-fetch every integration. Fetch only what the task needs and what the approved scope allows. If access is blocked, make the limitation visible.
 8. Write the requested draft or analysis, citing the relevant business sources naturally. Never send, post, book, refund, delete, or change the source systems under this plugin.
+9. Keep each rule within its stated scope. A diagnostic fee does not establish
+   that every repair is chargeable; separately quoted work does not establish a
+   blanket ban on free service. Missing exceptions and terms remain unknown.
 
 ## Handle corrections without corrupting memory
 An explicit ongoing owner correction can update the approved local company knowledge. A one-off edit stays with the current output.
