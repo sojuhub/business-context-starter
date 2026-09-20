@@ -62,7 +62,7 @@ Discover the business's sources through short questions, not an upfront integrat
 Seek broad relevant business context, including selected prior AI work; do not silently limit discovery to public files or the first draft's needs. Adapt to the industry and skip questions already answered by approved evidence.
 Offer connect now / already available / later / not used. Record the owner's choice; never silently mark an unattempted source as later or not used. These are conversational choices, not claims about a shipped button UI.
 Use existing authorized tools first. Add a provider only for a real capability gap and with explicit approval.
-Explain the specific benefit and recommend a useful additional connection, then ask: "Would you like to use a separate connection service for this?" Disclose provider, signup, permissions/data handling and known or unverified costs before consent.
+Only when the existing route lacks a required capability, explain the specific benefit of an additional provider, recommend it, then ask: "Would you like to use a separate connection service for this?" Disclose provider, signup, permissions/data handling and known or unverified costs before consent.
 Execute supported technical setup within the approved scope, then verify an actual scoped read. Do not leave the owner with API configuration instructions. If the route is unsupported, record the gap and offer a supported fallback.
 Do not ask the owner to reconnect the same Gmail through a second provider if its existing connector meets the need.
 Do not interpret plugin installation or a previous chat's account connection as account access in this local host.

@@ -128,7 +128,7 @@
     },
     {
       "path": "plugins/business-context-starter/references/CONNECT_SOURCES.md",
-      "sha256": "38f38bdf281d75c2314eab30d7b7cf9d2b7c78c974ed28e217e81636b2e541d1"
+      "sha256": "2753d49f83c3c1c9d1cf215406d51fd8cb690faf86de2b6196c5efa26d232e6d"
     },
     {
       "path": "plugins/business-context-starter/references/CONTINUITY.md",
@@ -160,7 +160,7 @@
     },
     {
       "path": "plugins/business-context-starter/skills/start/SKILL.md",
-      "sha256": "a3f0e7dbecab52dce11f66c24c1cb53976d464c90eba2c92e45086ad1b4f657b"
+      "sha256": "fa542b09ca8c342c4cfc2fd27429c76f71fdb026105e3896e47b8d2967cc1789"
     },
     {
       "path": "plugins/business-context-starter/skills/use-business-context/SKILL.md",

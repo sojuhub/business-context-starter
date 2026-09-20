@@ -13,7 +13,9 @@ current session; never assume another host's connection is accessible here.
    sources in `state/onboarding.json.requested_source_ids`; do not omit blocked ones.
 2. Explain the account, business filter, date range or folder, maximum records,
    attachment policy, AI/provider processing and private destination in one scope
-   proposal. Ask only for missing authorization. A proposed 90-day window is not
+   proposal. If the destination is missing, propose a suitable private folder or
+   existing wiki binding in that same question; continue the preview from supplied
+   evidence while waiting. Ask only for missing authorization. A proposed 90-day window is not
    consent. A mixed inbox may require metadata discovery followed by confirmation
    of the business selection. If supplied context already authorizes body reads
    in an exact scope, proceed without asking again.
