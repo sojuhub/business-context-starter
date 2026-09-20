@@ -10,6 +10,8 @@ Record these as simulated results, separate from catalog support and live reads.
 The developer audit scripts live outside the installable plugin and are not shipped
 provider adapters or an enforced OS sandbox.
 
+Use [connection execution](CONNECT_SOURCES.md) for capability discovery, scoped reads, receipts and the completion check. These are agent-executed host tool calls, not automatic access from installing this package.
+
 ## Connection priority
 1. A sufficient existing authorized host connector, file tool or company wiki.
 2. A documented official integration available in that host.

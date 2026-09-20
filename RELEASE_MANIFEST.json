@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "version": "0.4.0",
-  "created_at": "2026-09-19T07:24:34.241353+00:00",
+  "created_at": "2026-09-20T23:22:21.849642+00:00",
   "intended_visibility": "public",
   "intended_owner": "sojuhub",
   "intended_repository": "business-context-starter",
@@ -20,31 +20,35 @@
     },
     {
       "path": "CHANGELOG.md",
-      "sha256": "75c9d77a167052413333d1a358ff9dd78c3a59c5730f38c0494219cd9a03bc60"
+      "sha256": "cbfa042a7529e95267423156e5692b8003dc0969e59011a3bdc311b7aea2445c"
     },
     {
       "path": "COPY_PROMPT.md",
-      "sha256": "582acb01c1c4ac9631b34511f3e405ec195696a980a953da9ab97861f4cffb86"
+      "sha256": "16c64ff1e24d8eaa1c8033b2a784e54967b6ed9d205564b8ace3cf28517b41d2"
     },
     {
       "path": "LICENSE",
       "sha256": "b437440c440339e4bed982b1a554ff6e61362eb1db8a0db6a4adbf5fad0beeb8"
     },
     {
+      "path": "README.ko.md",
+      "sha256": "4a6afd5f4b6d0e2d030f11bc53eda84631633a30fa0554db0ffbc13db715b9fe"
+    },
+    {
       "path": "README.md",
-      "sha256": "68f8f66ccdaf1e9aef693de4aed3f415b22dd507296b4e964f0599d44ab4b919"
+      "sha256": "d12df37704a5a4f53ab4d2b6e73f93ea5ea3416a44cce7e803fe12b18916655a"
     },
     {
       "path": "START_HERE.md",
-      "sha256": "a29c386add92dd83287a64de105c8056b48163584ee99be5676c3cddf3142398"
+      "sha256": "28b15c49bc522ef04ac6acc237dd6c15a3f5e8192f21171faefd43f20f6c33e4"
     },
     {
       "path": "TEST_RESULTS.md",
-      "sha256": "4be7e62bc904f9ab958cf3f7d067be564c576cd1e30d54fab42060a6eb424a20"
+      "sha256": "b7bdc1c0befda46d51965917b6119139610c7880bd5eb956dbb6859605fbf1f0"
     },
     {
       "path": "docs/ACCEPTANCE.md",
-      "sha256": "dff1a2d72ad4f906d76963a3db506f172e74fded11d5441cfb60429eb779c47c"
+      "sha256": "8a7cf7144f7442170122eda44fbeb3611afc4fa6edfa0e49c194706b5a4cd3c8"
     },
     {
       "path": "docs/HISTORICAL_TEST_RESULTS.md",
@@ -75,6 +79,30 @@
       "sha256": "9677180612c603f5a35e600805daea964bbe85ffc5bf0dd98460e9fee10edd48"
     },
     {
+      "path": "docs/assets/cafe-comparison.png",
+      "sha256": "862ed4913a8ebf69a130a2b8b1d689b4e5d408fa0a1a87adda9da0a397cbd093"
+    },
+    {
+      "path": "docs/assets/readme-hero-en.svg",
+      "sha256": "54c9c1d5da599d0ea132bddb5aa506fa9ad29b1101b61bdbf3d04da6aec52d4e"
+    },
+    {
+      "path": "docs/assets/readme-hero-ko.svg",
+      "sha256": "1cb15c46900ce7649433b49d4ec180530347d92c7810c84de15b070514bf4471"
+    },
+    {
+      "path": "docs/demo/LICENSE",
+      "sha256": "4958b3d9745382fea939dd405f9e308bf67c59e794d2b6f14f03980b057f7301"
+    },
+    {
+      "path": "docs/demo/README.md",
+      "sha256": "5512a2631942d2daa7e58a086463488f9086ce8bf7ebe75c7b67adfc41b9a85e"
+    },
+    {
+      "path": "docs/demo/index.html",
+      "sha256": "f4d4c7b5a6cc90216a6fbe5a87b663c5f9141e9a8154d7128d6db5943ba62c7b"
+    },
+    {
       "path": "examples/alder-cup-owner-brief.md",
       "sha256": "f1f6917009c645357983b921f76db6a6fc6259ed7c3be253a756d9a3a3b27b8f"
     },
@@ -99,6 +127,10 @@
       "sha256": "cd6612e5e70c6719c997913323f7882da498abe5d41bfb67b4c2b2f13940eff5"
     },
     {
+      "path": "plugins/business-context-starter/references/CONNECT_SOURCES.md",
+      "sha256": "38f38bdf281d75c2314eab30d7b7cf9d2b7c78c974ed28e217e81636b2e541d1"
+    },
+    {
       "path": "plugins/business-context-starter/references/CONTINUITY.md",
       "sha256": "543f57261d1995d511800e986b1a5140467fdedc95a60e33d6279cde922e0cf4"
     },
@@ -108,11 +140,15 @@
     },
     {
       "path": "plugins/business-context-starter/references/SOURCE_HANDLING.md",
-      "sha256": "9ed6213d76e7c5c3be9a9cef9508f424a34d92ac1c1cd356b33dfa17251376ed"
+      "sha256": "b34be408d04be01bb05e891e7e3259a51acd4ce18cc5bc374983dc5dcade745f"
     },
     {
       "path": "plugins/business-context-starter/references/WORKSPACE.md",
-      "sha256": "0e303e0eac382d2768aa78ea4869427a66c5e7ba73c8ece66f8fc278563d8064"
+      "sha256": "6ef23d2f5b615ddf44ff1a3f813c11e4f1c05ec71ab5cc5a3961a25b71582f94"
+    },
+    {
+      "path": "plugins/business-context-starter/scripts/check_onboarding.py",
+      "sha256": "ad5b4afdaf39c10057fb84bbfb54e6e1c3487c4c1cbdcbf9e4028992a572aaa6"
     },
     {
       "path": "plugins/business-context-starter/scripts/compile_context.py",
@@ -124,7 +160,7 @@
     },
     {
       "path": "plugins/business-context-starter/skills/start/SKILL.md",
-      "sha256": "3c04a5442dd6c9e1b2b6f0e279d731e03aa60aeaa9f3391239b81c30ddc4d115"
+      "sha256": "a3f0e7dbecab52dce11f66c24c1cb53976d464c90eba2c92e45086ad1b4f657b"
     },
     {
       "path": "plugins/business-context-starter/skills/use-business-context/SKILL.md",
@@ -201,6 +237,10 @@
     {
       "path": "tests/test_copy_first.py",
       "sha256": "b3fa45bfb0535914b3c0ae953c153d86bb1c6744d7d2e4d0ff748a0212c80a16"
+    },
+    {
+      "path": "tests/test_onboarding_completion.py",
+      "sha256": "a7009b21a1d459395a4ac9a320c24228ba91700bfba323cf1f7c67213c8a7dd6"
     },
     {
       "path": "tests/test_package.py",

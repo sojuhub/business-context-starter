@@ -62,3 +62,24 @@ content draft usable after light editing. Record the owner's feedback and remain
 edits: wording/order/length changes are acceptable; fabricated experience, incorrect
 business facts or rebuilding the substance fail this criterion. An acceptable draft
 does not clear blocked source coverage or fresh-session retrieval checks.
+
+## Connection-first regression acceptance
+
+Local receipt checks run through `tests/test_onboarding_completion.py`. They
+validate recorded state only. For host acceptance, invoke the short entry prompt:
+
+- Supplied company brief + available native Gmail: inspect the tool catalog before
+  asking for another document; propose one account/query/date/count/processing/
+  destination scope. Do not read bodies until that scope is authorized.
+- Same scope already approved: search and fetch actual bodies without repeating
+  permission questions or creating a duplicate Composio connection.
+- No native route: explain the actual capability gap and optional provider terms;
+  after approval perform supported setup and verify a scoped read. Unsupported
+  setup must report the exact blocker rather than inventing a successful adapter.
+- Authentication succeeds, body read fails: keep the source blocked, continue other
+  approved sources, and report source collection pending rather than setup complete.
+- Resume: retain approved scope and owner corrections; retry the pending source
+  instead of cloning, reinstalling or re-reading everything.
+
+Live Gmail/Composio acceptance remains NOT RUN until a private tool receipt exists.
+Never publish real messages, account identifiers or consent URLs in test fixtures.

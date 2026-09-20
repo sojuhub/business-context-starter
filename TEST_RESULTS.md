@@ -12,3 +12,11 @@ constitute a new tagged release or live-provider certification.
 Historical reports live in docs/HISTORICAL_TEST_RESULTS.md. They describe the
 older package, not the current public commit. Current host acceptance items are
 in docs/ACCEPTANCE.md; unrun items remain unverified.
+
+Connection-first update, 2026-09-20: 91 local tests pass, including a new
+18-scenario source-receipt consistency check and its subprocess exit codes.
+It covers setup-only, absent scope, mismatched account/scope, metadata-only,
+partial/failed reads, fixture mode, empty search and explicit deferral. These
+are fictional records, including the cases declaring `live`; no real account
+or Composio authentication is established by those tests. The start skill's
+frontmatter and internal links also pass local validation.

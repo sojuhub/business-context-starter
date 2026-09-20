@@ -63,13 +63,18 @@ flowchart LR
     style D fill:#FFF1C9,stroke:#95630B,color:#49320E
 ```
 
-1. **Start small.** A website, selected document or short explanation is enough. Choose any private material the agent may read.
+1. **Check existing connections.** The agent discovers available email, document and company-wiki tools, uses existing evidence for a preview, and proposes a bounded business reading scope. A website or short explanation works too.
 2. **Review the understanding.** Check the facts, policies and gaps before they become business context.
 3. **Try a real task.** Prepare a draft using the approved information.
 4. **Verify reuse.** Check that a new session actually reads the saved notes and an ongoing correction.
 
 The agent reuses your instructions and working connections. Login and consent stay
 with the account holder. Unavailable tools and unverified reads must remain visible.
+The agent proceeds from approval to actual reads in the same onboarding. Composio is
+an optional route for missing capabilities, not a required duplicate connection.
+Repository setup means **starter prepared**; agreed source reads and owner review
+must still happen. See [connection execution and completion check](plugins/business-context-starter/references/CONNECT_SOURCES.md).
+The check validates recorded receipts; it cannot independently authenticate a provider.
 
 ## See the idea in a fictional cafe
 

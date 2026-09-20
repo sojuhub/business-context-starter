@@ -26,6 +26,8 @@ account-holder steps only when a real-account test is within the current scope.
 ## 1. Fit before adding
 Inspect only the selected project and available tool descriptions, subject to host policy.
 Find its existing instructions, named skills, company wiki pointers, and relevant connections.
+Before asking for another document, discover the current host's available source tools and account labels through its supported tool catalog. Do not read private content during capability discovery. Report available / login-needed / unavailable separately; a listed tool is not a successful read.
+Follow [connection execution](../../references/CONNECT_SOURCES.md) during this run. Use existing company evidence for the early preview while preparing the source scope. Do not finish at repository setup or make a first document a prerequisite to discovering existing email/Drive connections.
 The starting workspace is not proof of business identity. Match the intended company/domain and explicit wiki bindings before reusing business claims.
 Read [source handling](../../references/SOURCE_HANDLING.md) for the evidence checks before composing a business preview. Relevant memory supplied or accessible under existing host authorization may provide leads; it does not authorize a scan of other projects or raw histories.
 Do not scan the home directory, unselected conversation-history archives, hidden secrets, browser profiles, or unrelated folders. Selected prior AI work can be inspected only under the separately approved scope below.
@@ -54,11 +56,11 @@ Discover likely official social, booking, and contact links from those sources; 
 Show a short supported business summary and what remains unknown. Do not infer revenue or operating performance from marketing text.
 Produce this preview before requiring all integrations. Public-only or file-only progress remains useful but is labelled partial.
 
-## 3. Offer relevant source connections within this onboarding
+## 3. Execute relevant source connections within this onboarding
 Read [source handling](../../references/SOURCE_HANDLING.md).
 Discover the business's sources through short questions, not an upfront integration checklist. If still unknown, ask which app/site the owner opens most for work, then where company material and customer conversations live, including consultation/inquiry, CRM or helpdesk tools. Ask about sales/POS/payment or booking only when relevant; accept "none" without adding setup.
 Seek broad relevant business context, including selected prior AI work; do not silently limit discovery to public files or the first draft's needs. Adapt to the industry and skip questions already answered by approved evidence.
-Offer connect now / already available / later / not used. These are conversational choices, not claims about a shipped button UI.
+Offer connect now / already available / later / not used. Record the owner's choice; never silently mark an unattempted source as later or not used. These are conversational choices, not claims about a shipped button UI.
 Use existing authorized tools first. Add a provider only for a real capability gap and with explicit approval.
 Explain the specific benefit and recommend a useful additional connection, then ask: "Would you like to use a separate connection service for this?" Disclose provider, signup, permissions/data handling and known or unverified costs before consent.
 Execute supported technical setup within the approved scope, then verify an actual scoped read. Do not leave the owner with API configuration instructions. If the route is unsupported, record the gap and offer a supported fallback.
@@ -112,6 +114,8 @@ Mark affected drafts for re-review; do not erase history or treat approved as se
 Explain the fresh-session test without claiming it ran here: open a new session in the attached project, ask a different relevant task, and verify the new rule is read.
 Also test an unrelated task and an existing command/test: business tone and this workflow must not take them over.
 
+Before the final handoff, run the read-only completion check described in [connection execution](../../references/CONNECT_SOURCES.md). A missing tool, declined provider, failed login, metadata-only result or page limit remains visible; keep working with other approved sources.
 End with three plain statements: what the AI now understands, what was actually connected/read, and one useful task to do next.
+Use "starter prepared" only for repository setup. Use "source collection pending" while scope/login/reads remain outstanding. A preview or green offline test is not onboarding completion. If waiting for the owner, state the exact resume step rather than announcing setup complete.
 Never say the entire business is onboarded when agreed sources remain blocked. Record business-ready/review-needed/source-blocked separately.
 The [use-business-context skill](../use-business-context/SKILL.md) handles later work; do not run this onboarding on every task.
