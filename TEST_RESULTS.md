@@ -20,3 +20,12 @@ partial/failed reads, fixture mode, empty search and explicit deferral. These
 are fictional records, including the cases declaring `live`; no real account
 or Composio authentication is established by those tests. The start skill's
 frontmatter and internal links also pass local validation.
+
+Scoped native Gmail check, 2026-09-20: after explicit owner authorization,
+account identity, bounded ID search and actual HTML body retrieval succeeded.
+The selected records were website-delivery tests explicitly excluding customer
+inquiries/orders; they are not evidence of real customer workflows or policies.
+The private source manifest and completion checker agreed on the bounded read.
+No send, label, read-state or attachment tool was called. Minimal receipts remain
+outside this repository; no account identifiers, message IDs or bodies are published.
+This does not verify Composio OAuth, full business onboarding or fresh-session reuse.

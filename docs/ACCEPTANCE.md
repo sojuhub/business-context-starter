@@ -81,5 +81,7 @@ validate recorded state only. For host acceptance, invoke the short entry prompt
 - Resume: retain approved scope and owner corrections; retry the pending source
   instead of cloning, reinstalling or re-reading everything.
 
-Live Gmail/Composio acceptance remains NOT RUN until a private tool receipt exists.
+A bounded native Gmail identity/search/body-read check now has a private receipt
+(2026-09-20; see TEST_RESULTS.md). Its records were delivery tests, so substantive
+business onboarding, Composio and full host acceptance remain NOT RUN.
 Never publish real messages, account identifiers or consent URLs in test fixtures.

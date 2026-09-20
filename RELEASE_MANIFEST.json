@@ -44,11 +44,11 @@
     },
     {
       "path": "TEST_RESULTS.md",
-      "sha256": "b7bdc1c0befda46d51965917b6119139610c7880bd5eb956dbb6859605fbf1f0"
+      "sha256": "8c6afeea6225cd63357212c36f91cb29d345dc8efb29797aabbd14574ac5f48d"
     },
     {
       "path": "docs/ACCEPTANCE.md",
-      "sha256": "8a7cf7144f7442170122eda44fbeb3611afc4fa6edfa0e49c194706b5a4cd3c8"
+      "sha256": "d4264152475f35da0c98bca14f27355f348a38a2e15a5e35347828565233fa26"
     },
     {
       "path": "docs/HISTORICAL_TEST_RESULTS.md",
