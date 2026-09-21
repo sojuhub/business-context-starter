@@ -29,3 +29,22 @@ The private source manifest and completion checker agreed on the bounded read.
 No send, label, read-state or attachment tool was called. Minimal receipts remain
 outside this repository; no account identifiers, message IDs or bodies are published.
 This does not verify Composio OAuth, full business onboarding or fresh-session reuse.
+
+Required discovery update: full-completion and source-only regression tests pass
+on Python 3.12. The suite contains 92 tests. Two local full runs each encountered
+one existing 10-second bridge subprocess timeout (large-plan, then rollback),
+so neither full run is reported as all-green. Both timeout cases passed on
+targeted retries. No timeout policy was weakened; use the commit-specific GitHub
+CI results for the independent full-suite outcome.
+
+The full check now requires the service interview/inventory, confirmed browser
+candidates or accepted fallback, seven reviewed knowledge areas, no material gaps,
+selective retention, current saved-file hashes, owner approval and a distinct
+fresh-session draft with evidence tied to pages actually read. Stop/defer, changed
+files and index-only reuse cannot pass. These cases use fictional receipts and
+validate logic rather than independent semantic truth or actual browser access.
+
+Rechecking the earlier private native Gmail receipt now reports source-complete
+and onboarding-incomplete, correctly preserving its limited read success without
+promoting it to complete business understanding. No new private account or browser
+collection was performed for this update.

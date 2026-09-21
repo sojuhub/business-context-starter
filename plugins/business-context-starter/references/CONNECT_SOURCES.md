@@ -4,6 +4,9 @@ This procedure is run by the host agent using its actual tools. The package does
 not provide OAuth credentials or a universal connector. Read tool schemas in the
 current session; never assume another host's connection is accessible here.
 
+First complete the required service interview and candidate confirmation in
+[BUSINESS_DISCOVERY.md](BUSINESS_DISCOVERY.md); a connector catalog is not a business inventory.
+
 ## Discover, scope, execute
 
 1. Inspect the supported tool catalog, including deferred tool discovery if the
@@ -135,8 +138,10 @@ python3 plugins/business-context-starter/scripts/check_onboarding.py \
 ```
 
 The command reads the existing state, manifest and evidence without changing them.
-It exits 0 only for a recorded live source-complete result; pending, partial and
-fixture results exit 1, invalid inputs exit 2. It checks consistency, not the
+By default it exits 0 only for `onboarding-complete`: source reads, service discovery,
+reviewed business coverage, saved artifacts and fresh-session evidence must all pass.
+`--sources-only` retains the narrower source-read diagnostic; its success is not
+onboarding completion. Pending, partial and fixture results exit 1; invalid inputs exit 2. It checks consistency, not the
 truth of agent-entered receipts or account access. Reconcile receipts with actual
 tool responses. If Python is unavailable, apply these same checks manually and
 state that the automated check did not run.

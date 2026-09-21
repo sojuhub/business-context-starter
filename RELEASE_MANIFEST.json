@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "version": "0.4.0",
-  "created_at": "2026-09-20T23:22:21.849642+00:00",
+  "created_at": "2026-09-21T01:10:23.420623+00:00",
   "intended_visibility": "public",
   "intended_owner": "sojuhub",
   "intended_repository": "business-context-starter",
@@ -16,15 +16,15 @@
     },
     {
       "path": ".gitignore",
-      "sha256": "d8173c75d9f47093e6a07de9b54d5ca5410c083819457e727cabbbb67ad4a93c"
+      "sha256": "bec7cf69546823412b29c3a15431de774bb91c54b04e3c187c5a0d675d2cc8ec"
     },
     {
       "path": "CHANGELOG.md",
-      "sha256": "cbfa042a7529e95267423156e5692b8003dc0969e59011a3bdc311b7aea2445c"
+      "sha256": "52075f4893509d22a7e9ffdd8e755b8a321463839ca1a747235f458e2a835cc4"
     },
     {
       "path": "COPY_PROMPT.md",
-      "sha256": "16c64ff1e24d8eaa1c8033b2a784e54967b6ed9d205564b8ace3cf28517b41d2"
+      "sha256": "9499aaa48361cf17b0cce1146e0a7007023158f160ee1788c15f42b50d4aa634"
     },
     {
       "path": "LICENSE",
@@ -32,23 +32,23 @@
     },
     {
       "path": "README.ko.md",
-      "sha256": "4a6afd5f4b6d0e2d030f11bc53eda84631633a30fa0554db0ffbc13db715b9fe"
+      "sha256": "7b96c0ef7d180d8e5d72c60a9ba8bac6a81994203dfa991e0e8c44bccb54fbbb"
     },
     {
       "path": "README.md",
-      "sha256": "d12df37704a5a4f53ab4d2b6e73f93ea5ea3416a44cce7e803fe12b18916655a"
+      "sha256": "d5a708de4c17a0a9e91d5320ae48ac97a22cfe72fbed2521e38c02b3d128692b"
     },
     {
       "path": "START_HERE.md",
-      "sha256": "28b15c49bc522ef04ac6acc237dd6c15a3f5e8192f21171faefd43f20f6c33e4"
+      "sha256": "8fa41a355700a0cf9ef0a7780987615502e0293f666360be5ce153a8c1c31c33"
     },
     {
       "path": "TEST_RESULTS.md",
-      "sha256": "8c6afeea6225cd63357212c36f91cb29d345dc8efb29797aabbd14574ac5f48d"
+      "sha256": "a652b845af0b07855aa162af483542caad991841e6c75a6e9afd4b83c8d5b106"
     },
     {
       "path": "docs/ACCEPTANCE.md",
-      "sha256": "d4264152475f35da0c98bca14f27355f348a38a2e15a5e35347828565233fa26"
+      "sha256": "14dbdaaf9032d4d1845dac041cdef82a83806b3e2e85f616b8626f8ff860c1eb"
     },
     {
       "path": "docs/HISTORICAL_TEST_RESULTS.md",
@@ -64,7 +64,7 @@
     },
     {
       "path": "docs/PRODUCT_DECISION.md",
-      "sha256": "ecb60db78efe4806bd056423dbbbbc7cfb786c9ac0fce3ad035d5aed5c29b374"
+      "sha256": "b2680d93e2b66f4d796f40259258afab3d0ceeb870529ce889e8c8c1cbc0f661"
     },
     {
       "path": "docs/PROVIDER_FIXTURES.md",
@@ -123,12 +123,16 @@
       "sha256": "301e8ecc8abd09ccb1c8a10625195419305174ad04d8ea5a64de156cf04c1c6a"
     },
     {
+      "path": "plugins/business-context-starter/references/BUSINESS_DISCOVERY.md",
+      "sha256": "9baee49b0183912cadb2b99e5760a34453bc4e57e5a933922a3488fad14cd6dd"
+    },
+    {
       "path": "plugins/business-context-starter/references/COMPILE_CONTEXT.md",
       "sha256": "cd6612e5e70c6719c997913323f7882da498abe5d41bfb67b4c2b2f13940eff5"
     },
     {
       "path": "plugins/business-context-starter/references/CONNECT_SOURCES.md",
-      "sha256": "2753d49f83c3c1c9d1cf215406d51fd8cb690faf86de2b6196c5efa26d232e6d"
+      "sha256": "3bab8565bacc44bb367eb7b2dd4e25e62fdc82ccc5872411204bb0ac63820dc1"
     },
     {
       "path": "plugins/business-context-starter/references/CONTINUITY.md",
@@ -144,11 +148,11 @@
     },
     {
       "path": "plugins/business-context-starter/references/WORKSPACE.md",
-      "sha256": "6ef23d2f5b615ddf44ff1a3f813c11e4f1c05ec71ab5cc5a3961a25b71582f94"
+      "sha256": "4e68234af242e90526153af6e744733c5d77631327f45374a14eb189b4319450"
     },
     {
       "path": "plugins/business-context-starter/scripts/check_onboarding.py",
-      "sha256": "ad5b4afdaf39c10057fb84bbfb54e6e1c3487c4c1cbdcbf9e4028992a572aaa6"
+      "sha256": "749d38c81a8b5cfc9f2920e73c7982a339c05253f9de9c003e4552515222f828"
     },
     {
       "path": "plugins/business-context-starter/scripts/compile_context.py",
@@ -160,7 +164,7 @@
     },
     {
       "path": "plugins/business-context-starter/skills/start/SKILL.md",
-      "sha256": "fa542b09ca8c342c4cfc2fd27429c76f71fdb026105e3896e47b8d2967cc1789"
+      "sha256": "671229dd6baccc6bf823a8c49afd11e4d844b29522db92bfa78a51f231896218"
     },
     {
       "path": "plugins/business-context-starter/skills/use-business-context/SKILL.md",
@@ -240,7 +244,7 @@
     },
     {
       "path": "tests/test_onboarding_completion.py",
-      "sha256": "a7009b21a1d459395a4ac9a320c24228ba91700bfba323cf1f7c67213c8a7dd6"
+      "sha256": "7096374f1ef9d1f9c3c97ebb9fbba834244e844754c76a2d43641456b5b85a8c"
     },
     {
       "path": "tests/test_package.py",

@@ -35,12 +35,22 @@ Tone and business policy are separate. Approved policy has explicit owner proven
 ## State contracts
 - state/onboarding.json: schema_version, company_id, phase, review_status, private_destination, approved_scopes, last_updated, blockers. Unknown timestamps are null.
 - For connection-aware runs also record discovery_status (`complete` only after inspecting host tools), requested_source_ids (all agreed source IDs), and next_action. Each approved_scopes entry has source_id, account_ref, scope, approval_ref. Use private non-secret references to the actual owner authorization; discovery-only approval cannot authorize body reads.
+- For full onboarding, follow [business discovery](BUSINESS_DISCOVERY.md). Record the mandatory service interview and nonempty service inventory, then owner-confirmed browser candidates or an accepted manual fallback, seven reviewed coverage categories, material gaps, selective-original retention, content-bound review hashes, and fresh-session draft evidence. `run_status` may show active, paused, stopped, or deferred; the latter three prevent completion.
 - Each requested manifest source also records disposition (`collect`, `deferred`, `not-used`), route, record_count, gaps, and read_receipt. A read_receipt has evidence_mode (`live` or `fixture`), tool, receipt_ref, checked_at, scope, account_ref, and coverage_complete. It records an observed tool response, not a model prediction. Deferred/not-used sources require decision_ref. See CONNECT_SOURCES.md for examples and limits.
 - sources/manifest.json: company_id, sources[] with id, kind, locator, account_ref (not a token), scope, auth_status, read_status, inspected_scope, checked_at, update_mode.
 - sources/evidence.jsonl: one minimal claim/excerpt per line: id, source_id, locator, claim, status (source-stated/owner-confirmed/inferred/disputed), checked_at.
 - state/decisions.jsonl: owner change, one-off/ongoing scope, prior value, new value, revision, evidence, impacted drafts.
 - integration/bindings.json: approved project, active company, INDEX, existing authoritative pages and source routes. Never credentials.
 - outputs: first brief and useful drafts. Generated/reviewed/approved are distinct; no sent state without an actual external action, which this plugin does not perform.
+
+The completion record binds the reviewed version: `storage.files` must include
+`INDEX.md`, `outputs/business-brief.md`, `sources/manifest.json`,
+`sources/evidence.jsonl`, all coverage `saved_paths`, and retained originals by
+SHA-256. `owner_review.files` must equal that map. A fresh-session receipt must
+read `INDEX.md` plus a saved coverage page and include a distinct session ID,
+confirmed evidence IDs, and an on-disk draft hash. Source-complete is not
+onboarding-complete; see [business discovery](BUSINESS_DISCOVERY.md) for the
+conditional schema and checker status semantics.
 
 Use the existing v0.2 conventions if the workspace already has them. Migration requires a reviewed plan; do not maintain two competing canonical stores.
 
