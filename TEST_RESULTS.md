@@ -31,7 +31,7 @@ outside this repository; no account identifiers, message IDs or bodies are publi
 This does not verify Composio OAuth, full business onboarding or fresh-session reuse.
 
 Required discovery update: full-completion and source-only regression tests pass
-on Python 3.12. The suite contains 92 tests. Two local full runs each encountered
+on Python 3.12. That revision contained 92 tests. Two local full runs each encountered
 one existing 10-second bridge subprocess timeout (large-plan, then rollback),
 so neither full run is reported as all-green. Both timeout cases passed on
 targeted retries. No timeout policy was weakened; use the commit-specific GitHub
@@ -48,3 +48,20 @@ Rechecking the earlier private native Gmail receipt now reports source-complete
 and onboarding-incomplete, correctly preserving its limited read success without
 promoting it to complete business understanding. No new private account or browser
 collection was performed for this update.
+
+Isolated cross-host update, 2026-09-21: actual fictional browser discovery ran on
+G14 Windows and Ubuntu WSL. A staged model interview, interview-answer evidence
+storage and a separate fresh-session draft also ran on WSL. See the
+[observed results and limitations](docs/LOCAL_VALIDATION.md#isolated-browser-and-interview-validation--2026-09-21),
+including the Windows cookie-persistence failure and the distinction between
+profile isolation and a VM. Raw host/session artifacts remain private.
+
+The source-handling and compilation instructions now require relevant owner
+answers to enter the evidence ledger and saved knowledge. An additional offline
+regression covers service records and owner-only workflow evidence together;
+it checks exact saved facts, locators and evidence IDs while preserving the
+need for owner review. It does not invoke a model or prove interview automation.
+The current suite contains 93 tests. The Python 3.12 full run passed 91 and hit
+two existing 10-second bridge CLI timeouts (round trip and malformed-plan
+rejection), so it is not an all-green local run. The new regression passed;
+timeout limits remain unchanged. Use commit-specific CI for the full-suite result.

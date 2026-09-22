@@ -61,8 +61,9 @@ all possible industries, or all provider schemas.
 
 Offline checks need Python 3.10+ and the standard library:
 
-The final local run passed 90 tests. The source manifest includes these files;
-the existing 0.4.0 release tag does not certify this newer implementation.
+The 2026-09-19 local run passed 90 tests; see [current results](../TEST_RESULTS.md)
+for later checks. The existing 0.4.0 release tag does not certify this newer
+implementation.
 
 ```sh
 python3 -m unittest discover -s tests -v
@@ -91,3 +92,61 @@ stand in for a real owner's approval. Unit tests that mock this runner verify
 its mechanics and are not actual-host evidence.
 
 Execution reference: [Codex non-interactive mode](https://learn.chatgpt.com/docs/non-interactive-mode).
+
+## Isolated browser and interview validation — 2026-09-21
+
+Source under test: `66950e1e202b95eecc6534970eb1b54522e2eb98`.
+Separate native headless browser profiles on G14 Windows and Ubuntu WSL used
+loopback pages for fictional Sample Film Mail, Drive and CRM, plus an excluded
+personal-page placeholder. No existing user profile, real service account or
+canonical company wiki was read. This was profile isolation, not a VM or an
+actual Chrome Context connector. The task-specific browser/interview harness and
+raw receipts remain outside the public package; the reproduction command above
+runs the earlier fixture harness, not this cross-host scenario.
+
+| Observed check | Windows Chrome 153.0.8010.53 | WSL Chromium 136.0.7103.25 |
+| --- | --- | --- |
+| Discover actual open tabs and browser-written recent history | PASS | PASS |
+| Discover a closed CRM tab from history | PASS | PASS |
+| Read three fictional services selected by a synthetic owner | PASS | PASS |
+| Separate concurrent profiles' cookies and localStorage | PASS | PASS |
+| Separate stored history; preserve localStorage after restart | PASS | PASS |
+| Preserve cookies after restart | FAIL: OS encryption error `0x5` | PASS |
+| CDP close response and browser parent exit 0 | PASS | PASS |
+| Two completion-check regression tests | PASS | PASS |
+
+History discovery read at most 20 entries from new test profiles and combined
+them with observed open tabs. The personal placeholder was excluded from source
+collection. A newer cached WSL Chromium build did not exit promptly after
+`Browser.close`; only the version shown above passed the final run. No browser
+security settings or real authentication were changed to bypass either failure.
+
+On WSL, nine actual Codex calls exercised seven staged interview steps and two
+initial/stop probes. The model asked about the most-used service and its purpose,
+other services beyond installed connectors, scoped collection, seven knowledge
+areas, conflicting 25%/43% deposit terms, and whole-brief owner review. It retained
+the synthetic owner's narrowed 30-day, five-record-per-service scope. The stop
+probe deferred with no source approval or tool use.
+
+The scenario supplied fixed owner answers and explicit stage instructions, carrying
+the transcript between separate calls. Browser fixtures were prepared and selected
+before the interview; the model received bodies only after its synthetic scope
+approval. This does not prove autonomous long conversations, native session resume,
+or authorization enforcement across a live provider pipeline.
+
+The first browser-to-context run omitted owner-only workflow facts because the
+test integration supplied browser records but left interview answers in the
+transcript. Adding owner answers as separately identified evidence before
+classification fixed that input omission without changing the compiler. The final
+run produced 18 source-linked claims, eight citing owner answers, and saved both
+CRM as the most-used service and the quote-approval/deposit-request sequence.
+A distinct fresh Codex session read saved context pages and used the current 43%
+deposit and that workflow in an unsent customer draft, without promising Friday
+delivery. The instruction references now require this interview-evidence path;
+one offline intake-to-compilation regression checks its saved facts and provenance.
+
+The production completion check remained `onboarding-incomplete`, as expected for
+fictional sources and synthetic owner approval. Native plugin loading, actual
+Chrome Context, live service authentication and unscripted owner interviews remain
+unverified. Private final receipt SHA-256:
+`a61d603c3f301089138a8fe2a5193a5ad28e65f68069b23c1da74c54bcd063e2`.

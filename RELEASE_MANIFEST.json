@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "version": "0.4.0",
-  "created_at": "2026-09-21T01:10:23.420623+00:00",
+  "created_at": "2026-09-22T06:24:56.283491+00:00",
   "intended_visibility": "public",
   "intended_owner": "sojuhub",
   "intended_repository": "business-context-starter",
@@ -44,7 +44,7 @@
     },
     {
       "path": "TEST_RESULTS.md",
-      "sha256": "a652b845af0b07855aa162af483542caad991841e6c75a6e9afd4b83c8d5b106"
+      "sha256": "39888c506a165c2a2163a0616e76b83dc12f0a171b588d688181e8a6767f22aa"
     },
     {
       "path": "docs/ACCEPTANCE.md",
@@ -56,7 +56,7 @@
     },
     {
       "path": "docs/LOCAL_VALIDATION.md",
-      "sha256": "d63512d0299500fcac37e2a54d7a25db569e783bec3694a2d34de12a35d1d879"
+      "sha256": "ce02bb13ad2c3d3bcc67dbeda8f0ead3cd35b34b90d35eb3aa43db0416f314fb"
     },
     {
       "path": "docs/OPTIONAL_PLUGIN.md",
@@ -128,7 +128,7 @@
     },
     {
       "path": "plugins/business-context-starter/references/COMPILE_CONTEXT.md",
-      "sha256": "cd6612e5e70c6719c997913323f7882da498abe5d41bfb67b4c2b2f13940eff5"
+      "sha256": "be402313a85f5bb4a419d77dbc88736091489fba71ffd9ac6b8ad5087f2f699a"
     },
     {
       "path": "plugins/business-context-starter/references/CONNECT_SOURCES.md",
@@ -144,7 +144,7 @@
     },
     {
       "path": "plugins/business-context-starter/references/SOURCE_HANDLING.md",
-      "sha256": "b34be408d04be01bb05e891e7e3259a51acd4ce18cc5bc374983dc5dcade745f"
+      "sha256": "10402de1395020d139fbec9cf0ea44dcae17704c016869cbeedeaaaced154135"
     },
     {
       "path": "plugins/business-context-starter/references/WORKSPACE.md",
@@ -236,7 +236,7 @@
     },
     {
       "path": "tests/test_compile_context.py",
-      "sha256": "ffd13e185a22ad9305c67b3e19f387f5ec0f46201983b654b39a8a0cfade10fc"
+      "sha256": "25369b0af30313508a3dc3ef7be44d4043e5746c450110625fed0efef935c308"
     },
     {
       "path": "tests/test_copy_first.py",

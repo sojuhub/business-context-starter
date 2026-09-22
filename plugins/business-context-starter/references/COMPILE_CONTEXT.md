@@ -17,6 +17,13 @@ The plan has exactly these fields:
 
 Evidence must already exist in `sources/evidence.jsonl`, and each `quote` must be an exact substring of its evidence claim. The manifest identity must match `company_id`. Summaries are always rendered as unreviewed candidates; the compiler never creates owner-confirmed policy.
 
+Apply [interview source handling](SOURCE_HANDLING.md#interview-answers-are-source-evidence)
+before building the plan: owner answers and conflict resolutions need their own
+manifest entries and evidence IDs, just like collected service records. Include
+relevant owner-only facts in `claims`; the compiler cannot recover omitted answers
+from a transcript or `state/onboarding.json`. Read back the generated brief and
+coverage pages to check these facts and their provenance before owner review.
+
 Only these paths are generated: `INDEX.md`, the seeded `context/company.md`, `context/tone.md`, and `context/policies.md`, supported `context/products.md` or `context/workflows.md` pages when claims exist, `outputs/business-brief.md`, and `state/onboarding.json`. `products.md` and `workflows.md` are omitted until evidence supports them; no empty pages are created. Source IDs, locators, evidence status and source quotes are retained in every claim. Partial sources and current transaction/order records are marked snapshot-only.
 
 The destination must be outside a Git repository and the Codex plugin cache, and all path components must be regular, non-symlink paths. Before any write, the compiler validates the plan, evidence, manifest, output paths and prior generation hashes. A changed generated page is treated as an owner correction and causes a visible stop. Repeating the same plan is idempotent. The compiler never accepts model-supplied filenames and never stores credentials. `state/onboarding.json` records top-level `schema_version` and `last_updated`; changed generated context returns `review_status` to `needs-owner-review`.
