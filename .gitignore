@@ -10,3 +10,6 @@ PUBLISH_RESULT.json
 .publish-cache/
 *.zip
 *.bundle
+
+# Local owner decisions and private verification context
+.soju/

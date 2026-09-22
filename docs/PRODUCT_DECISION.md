@@ -21,7 +21,7 @@ Prioritize stable company facts, applicable tone, ongoing owner policies, confir
 A source archive being imported does not prove complete memories were transferred. Required behavior is grounded in reviewed company documents, not only probabilistic native recall.
 
 ## User experience
-Ask only missing questions. Show useful company understanding before demanding all integrations. Offer prior AI work inside onboarding rather than as a separate setup product. Export preparation or one unavailable connector must not block progress on approved sources.
+The progressive service interview is mandatory; confirm supplied answers instead of repeating them. Show useful company understanding before demanding all integrations. Offer prior AI work inside onboarding rather than as a separate setup product. Export preparation or one unavailable connector must not block progress on approved sources.
 Owners choose the company, permit data access and review business meaning. They do not choose graph engines, file taxonomies or a connector framework.
 
 ## Host boundary
@@ -30,3 +30,18 @@ The public 0.4.0 route is instruction-led and host-neutral. It supports the same
 ## Success and limits
 Success means the next session can find the right company, relevant facts and an ongoing correction without old transcript replay, while unrelated work and prior host behavior remain intact.
 The public instruction alpha is not native plugin loading or end-to-end host verification. Static packaging tests are not behavioral verification. Fresh-session reuse, provider setup and account behavior remain acceptance work.
+
+## Completion contract
+Discover actual used services and their purpose, including owner-confirmed candidates
+from authorized work-profile tabs/recent-history metadata. An installed connector
+is not evidence of service usage. Unsupported browser access needs an explicit
+owner-accepted manual inventory fallback.
+
+Complete only after the seven business areas have evidence and owner confirmation
+(or an explicit justified not-applicable decision), material conflicts are resolved,
+reviewed knowledge is saved, and a fresh session demonstrably reads and applies it
+in a draft. Retain knowledge, provenance, excerpts and necessary approved originals.
+The default completion CLI enforces recorded gates and file hashes; it cannot force
+a host to invoke it or independently establish semantic truth. Source-only checks
+never constitute completed onboarding. Respect stop/defer and retain a resume point.
+See the installable [business discovery contract](../plugins/business-context-starter/references/BUSINESS_DISCOVERY.md).

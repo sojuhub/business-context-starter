@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "version": "0.4.0",
-  "created_at": "2026-09-19T07:24:34.241353+00:00",
+  "created_at": "2026-09-22T06:24:56.283491+00:00",
   "intended_visibility": "public",
   "intended_owner": "sojuhub",
   "intended_repository": "business-context-starter",
@@ -16,35 +16,39 @@
     },
     {
       "path": ".gitignore",
-      "sha256": "d8173c75d9f47093e6a07de9b54d5ca5410c083819457e727cabbbb67ad4a93c"
+      "sha256": "bec7cf69546823412b29c3a15431de774bb91c54b04e3c187c5a0d675d2cc8ec"
     },
     {
       "path": "CHANGELOG.md",
-      "sha256": "75c9d77a167052413333d1a358ff9dd78c3a59c5730f38c0494219cd9a03bc60"
+      "sha256": "52075f4893509d22a7e9ffdd8e755b8a321463839ca1a747235f458e2a835cc4"
     },
     {
       "path": "COPY_PROMPT.md",
-      "sha256": "582acb01c1c4ac9631b34511f3e405ec195696a980a953da9ab97861f4cffb86"
+      "sha256": "9499aaa48361cf17b0cce1146e0a7007023158f160ee1788c15f42b50d4aa634"
     },
     {
       "path": "LICENSE",
       "sha256": "b437440c440339e4bed982b1a554ff6e61362eb1db8a0db6a4adbf5fad0beeb8"
     },
     {
+      "path": "README.ko.md",
+      "sha256": "7b96c0ef7d180d8e5d72c60a9ba8bac6a81994203dfa991e0e8c44bccb54fbbb"
+    },
+    {
       "path": "README.md",
-      "sha256": "68f8f66ccdaf1e9aef693de4aed3f415b22dd507296b4e964f0599d44ab4b919"
+      "sha256": "d5a708de4c17a0a9e91d5320ae48ac97a22cfe72fbed2521e38c02b3d128692b"
     },
     {
       "path": "START_HERE.md",
-      "sha256": "a29c386add92dd83287a64de105c8056b48163584ee99be5676c3cddf3142398"
+      "sha256": "8fa41a355700a0cf9ef0a7780987615502e0293f666360be5ce153a8c1c31c33"
     },
     {
       "path": "TEST_RESULTS.md",
-      "sha256": "4be7e62bc904f9ab958cf3f7d067be564c576cd1e30d54fab42060a6eb424a20"
+      "sha256": "39888c506a165c2a2163a0616e76b83dc12f0a171b588d688181e8a6767f22aa"
     },
     {
       "path": "docs/ACCEPTANCE.md",
-      "sha256": "dff1a2d72ad4f906d76963a3db506f172e74fded11d5441cfb60429eb779c47c"
+      "sha256": "14dbdaaf9032d4d1845dac041cdef82a83806b3e2e85f616b8626f8ff860c1eb"
     },
     {
       "path": "docs/HISTORICAL_TEST_RESULTS.md",
@@ -52,7 +56,7 @@
     },
     {
       "path": "docs/LOCAL_VALIDATION.md",
-      "sha256": "d63512d0299500fcac37e2a54d7a25db569e783bec3694a2d34de12a35d1d879"
+      "sha256": "ce02bb13ad2c3d3bcc67dbeda8f0ead3cd35b34b90d35eb3aa43db0416f314fb"
     },
     {
       "path": "docs/OPTIONAL_PLUGIN.md",
@@ -60,7 +64,7 @@
     },
     {
       "path": "docs/PRODUCT_DECISION.md",
-      "sha256": "ecb60db78efe4806bd056423dbbbbc7cfb786c9ac0fce3ad035d5aed5c29b374"
+      "sha256": "b2680d93e2b66f4d796f40259258afab3d0ceeb870529ce889e8c8c1cbc0f661"
     },
     {
       "path": "docs/PROVIDER_FIXTURES.md",
@@ -73,6 +77,30 @@
     {
       "path": "docs/SOURCES.md",
       "sha256": "9677180612c603f5a35e600805daea964bbe85ffc5bf0dd98460e9fee10edd48"
+    },
+    {
+      "path": "docs/assets/cafe-comparison.png",
+      "sha256": "862ed4913a8ebf69a130a2b8b1d689b4e5d408fa0a1a87adda9da0a397cbd093"
+    },
+    {
+      "path": "docs/assets/readme-hero-en.svg",
+      "sha256": "54c9c1d5da599d0ea132bddb5aa506fa9ad29b1101b61bdbf3d04da6aec52d4e"
+    },
+    {
+      "path": "docs/assets/readme-hero-ko.svg",
+      "sha256": "1cb15c46900ce7649433b49d4ec180530347d92c7810c84de15b070514bf4471"
+    },
+    {
+      "path": "docs/demo/LICENSE",
+      "sha256": "4958b3d9745382fea939dd405f9e308bf67c59e794d2b6f14f03980b057f7301"
+    },
+    {
+      "path": "docs/demo/README.md",
+      "sha256": "5512a2631942d2daa7e58a086463488f9086ce8bf7ebe75c7b67adfc41b9a85e"
+    },
+    {
+      "path": "docs/demo/index.html",
+      "sha256": "f4d4c7b5a6cc90216a6fbe5a87b663c5f9141e9a8154d7128d6db5943ba62c7b"
     },
     {
       "path": "examples/alder-cup-owner-brief.md",
@@ -95,8 +123,16 @@
       "sha256": "301e8ecc8abd09ccb1c8a10625195419305174ad04d8ea5a64de156cf04c1c6a"
     },
     {
+      "path": "plugins/business-context-starter/references/BUSINESS_DISCOVERY.md",
+      "sha256": "9baee49b0183912cadb2b99e5760a34453bc4e57e5a933922a3488fad14cd6dd"
+    },
+    {
       "path": "plugins/business-context-starter/references/COMPILE_CONTEXT.md",
-      "sha256": "cd6612e5e70c6719c997913323f7882da498abe5d41bfb67b4c2b2f13940eff5"
+      "sha256": "be402313a85f5bb4a419d77dbc88736091489fba71ffd9ac6b8ad5087f2f699a"
+    },
+    {
+      "path": "plugins/business-context-starter/references/CONNECT_SOURCES.md",
+      "sha256": "3bab8565bacc44bb367eb7b2dd4e25e62fdc82ccc5872411204bb0ac63820dc1"
     },
     {
       "path": "plugins/business-context-starter/references/CONTINUITY.md",
@@ -108,11 +144,15 @@
     },
     {
       "path": "plugins/business-context-starter/references/SOURCE_HANDLING.md",
-      "sha256": "9ed6213d76e7c5c3be9a9cef9508f424a34d92ac1c1cd356b33dfa17251376ed"
+      "sha256": "10402de1395020d139fbec9cf0ea44dcae17704c016869cbeedeaaaced154135"
     },
     {
       "path": "plugins/business-context-starter/references/WORKSPACE.md",
-      "sha256": "0e303e0eac382d2768aa78ea4869427a66c5e7ba73c8ece66f8fc278563d8064"
+      "sha256": "4e68234af242e90526153af6e744733c5d77631327f45374a14eb189b4319450"
+    },
+    {
+      "path": "plugins/business-context-starter/scripts/check_onboarding.py",
+      "sha256": "749d38c81a8b5cfc9f2920e73c7982a339c05253f9de9c003e4552515222f828"
     },
     {
       "path": "plugins/business-context-starter/scripts/compile_context.py",
@@ -124,7 +164,7 @@
     },
     {
       "path": "plugins/business-context-starter/skills/start/SKILL.md",
-      "sha256": "3c04a5442dd6c9e1b2b6f0e279d731e03aa60aeaa9f3391239b81c30ddc4d115"
+      "sha256": "671229dd6baccc6bf823a8c49afd11e4d844b29522db92bfa78a51f231896218"
     },
     {
       "path": "plugins/business-context-starter/skills/use-business-context/SKILL.md",
@@ -196,11 +236,15 @@
     },
     {
       "path": "tests/test_compile_context.py",
-      "sha256": "ffd13e185a22ad9305c67b3e19f387f5ec0f46201983b654b39a8a0cfade10fc"
+      "sha256": "25369b0af30313508a3dc3ef7be44d4043e5746c450110625fed0efef935c308"
     },
     {
       "path": "tests/test_copy_first.py",
       "sha256": "b3fa45bfb0535914b3c0ae953c153d86bb1c6744d7d2e4d0ff748a0212c80a16"
+    },
+    {
+      "path": "tests/test_onboarding_completion.py",
+      "sha256": "7096374f1ef9d1f9c3c97ebb9fbba834244e844754c76a2d43641456b5b85a8c"
     },
     {
       "path": "tests/test_package.py",

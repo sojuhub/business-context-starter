@@ -62,3 +62,48 @@ content draft usable after light editing. Record the owner's feedback and remain
 edits: wording/order/length changes are acceptable; fabricated experience, incorrect
 business facts or rebuilding the substance fail this criterion. An acceptable draft
 does not clear blocked source coverage or fresh-session retrieval checks.
+
+## Connection-first regression acceptance
+
+Local receipt checks run through `tests/test_onboarding_completion.py`. They
+validate recorded state only. For host acceptance, invoke the short entry prompt:
+
+- Supplied company brief + available native Gmail: inspect the tool catalog before
+  asking for another document; propose one account/query/date/count/processing/
+  destination scope. Do not read bodies until that scope is authorized.
+- Same scope already approved: search and fetch actual bodies without repeating
+  permission questions or creating a duplicate Composio connection.
+- No native route: explain the actual capability gap and optional provider terms;
+  after approval perform supported setup and verify a scoped read. Unsupported
+  setup must report the exact blocker rather than inventing a successful adapter.
+- Authentication succeeds, body read fails: keep the source blocked, continue other
+  approved sources, and report source collection pending rather than setup complete.
+- Resume: retain approved scope and owner corrections; retry the pending source
+  instead of cloning, reinstalling or re-reading everything.
+
+A bounded native Gmail identity/search/body-read check now has a private receipt
+(2026-09-20; see TEST_RESULTS.md). Its records were delivery tests, so substantive
+business onboarding, Composio and full host acceptance remain NOT RUN.
+Never publish real messages, account identifiers or consent URLs in test fixtures.
+
+## Required discovery and full completion regression
+
+- Ask about most-used work services, their purpose and other business sources even
+  when Gmail is available; confirm existing answers without repeating them.
+- Offer scoped work-profile tab/history metadata discovery; confirm candidate
+  services before reading content. Unsupported access requires an explicit accepted
+  manual fallback, never a fabricated browser receipt.
+- Missing categories, disputed evidence or material gaps trigger targeted follow-up;
+  a successful connector probe, zero matches or delivery-test messages alone fail.
+- Save knowledge, excerpts/provenance and necessary originals; verify hashes and
+  owner review against the saved version. Changed files invalidate completion.
+- Require distinct session IDs, saved-page read evidence and a persisted draft that
+  applies approved business evidence. Same-session answers cannot pass.
+- Default checker exit 0 means recorded full completion. `--sources-only` is a
+  diagnostic; prior source-only runs remain incomplete until the new gates exist.
+- Owner stop/defer preserves incomplete status. Do not loop on a blocked login,
+  invent an answer or broaden private scope to clear a gate.
+
+These are acceptance requirements, not claims that all browser/host combinations
+have been exercised. Fictional regression cases validate gate behavior, not live
+Chrome history access, Composio OAuth or the correctness of company understanding.

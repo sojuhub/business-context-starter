@@ -10,6 +10,8 @@ Record these as simulated results, separate from catalog support and live reads.
 The developer audit scripts live outside the installable plugin and are not shipped
 provider adapters or an enforced OS sandbox.
 
+Use [connection execution](CONNECT_SOURCES.md) for capability discovery, scoped reads, receipts and the completion check. These are agent-executed host tool calls, not automatic access from installing this package.
+
 ## Connection priority
 1. A sufficient existing authorized host connector, file tool or company wiki.
 2. A documented official integration available in that host.
@@ -39,6 +41,23 @@ The model may select, rank and summarize within these checks. Its confidence can
 | Irrelevant business/personal information or outside allowed scope | Exclude from the synthesis; do not broaden access automatically. |
 
 During onboarding, review the whole business brief with the owner before accepting new durable business knowledge and producing the first useful draft. Later tasks apply the same claim checks without repeating onboarding or reapproving unchanged reviewed knowledge. General user preferences are not company policy; a one-off instruction is not an ongoing rule. Do not rewrite generated native memory or enable global memory to implement this policy.
+
+## Interview answers are source evidence
+
+Before synthesis, save relevant owner answers and corrections alongside collected
+records in the approved private source manifest and evidence ledger. Retain the
+owner/speaker reference, message or turn locator, date, exact relevant excerpt,
+and review status. Use distinct record IDs for later corrections so the original
+statement and the decision resolving a conflict remain traceable. Do not keep
+business facts only in a conversation transcript or onboarding status fields.
+
+Include owner-only facts, such as the most-used service and the order of quote
+approval and deposit collection, in the classification plan and saved knowledge.
+Assistant questions, suggested scopes and proposed policies are not owner answers;
+read permission is not approval of business facts. Preserve these distinctions
+when selecting excerpts instead of importing the whole conversation as policy.
+Review the resulting brief with the owner and verify relevant interview-derived
+knowledge in the saved pages and fresh-session task, alongside provider evidence.
 
 ## What to collect
 | Source | Business meaning | Bounds and caveats |

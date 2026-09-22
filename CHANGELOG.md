@@ -1,6 +1,12 @@
 # Changelog
 
 ## Unreleased
+- Require progressive service discovery, owner-confirmed work-browser candidates and targeted business-knowledge follow-up.
+- Gate full onboarding on seven reviewed knowledge categories, selective original retention and file-bound fresh-session draft evidence; preserve source-only diagnostics.
+- Keep owner stop/defer and unsupported browser/session capabilities explicitly incomplete.
+- Discover existing host connections before requesting another source; execute bounded reads after scope approval.
+- Add native Gmail/Drive and optional Composio execution guidance with resumable source receipts.
+- Add a read-only completion check that rejects setup-only, metadata-only and incomplete collection claims; fixtures remain explicitly separate from live reads.
 - Validate source-linked business context compilation and preserve owner edits.
 - Add bounded offline Google Drive, Gmail and Square response mappings.
 - Add opt-in fictional-business Codex session checks and document observed limits.

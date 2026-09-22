@@ -4,6 +4,8 @@ from pathlib import Path
 import tempfile
 import unittest
 
+from scripts.audit_source_intake import ingest
+
 
 SCRIPT = Path(__file__).resolve().parents[1] / "plugins/business-context-starter/scripts/compile_context.py"
 spec = importlib.util.spec_from_file_location("compile_context", SCRIPT)
@@ -53,6 +55,33 @@ class CompileContextTests(unittest.TestCase):
         plan["claims"].append({"evidence_id": "e1", "category": "products", "quote": "local makers", "summary": "Maker-focused offering"})
         cc.compile_context(self.destination, plan)
         self.assertIn("Maker-focused offering", (self.destination / "context/products.md").read_text())
+
+    def test_owner_interview_and_service_evidence_survive_intake_and_compilation(self):
+        destination = self.root / "interview-company"
+        records = [
+            {"company_id": "sample-film", "source_id": "fixture:manual", "record_id": "terms",
+             "locator": "fixture://sample-film/manual/terms", "checked_at": "2026-09-21",
+             "text": "New custom orders require a 43% deposit."},
+            {"company_id": "sample-film", "source_id": "fixture:owner-interview", "record_id": "owner-turn-4",
+             "locator": "fixture://sample-film/interview/owner-turn-4", "checked_at": "2026-09-21",
+             "text": "We request the deposit after production checks feasibility and I approve the quote."},
+        ]
+        ingest(records, destination, "sample-film", {row["source_id"] for row in records})
+        evidence = [json.loads(line) for line in (destination / "sources/evidence.jsonl").read_text().splitlines()]
+        categories = {"fixture:manual": "policies", "fixture:owner-interview": "workflows"}
+        plan = {"company_id": "sample-film", "overview": "Fictional packaging company.",
+                "claims": [{"evidence_id": row["id"], "category": categories[row["source_id"]],
+                            "quote": row["claim"], "summary": row["claim"]} for row in evidence],
+                "unknowns": ["Delivery date"]}
+        cc.compile_context(destination, plan)
+        for row in evidence:
+            for relative in (f"context/{categories[row['source_id']]}.md", "outputs/business-brief.md"):
+                page = (destination / relative).read_text()
+                for expected in (row["claim"], row["id"], row["locator"], row["status"]):
+                    self.assertIn(expected, page)
+        self.assertIn("context/workflows.md", (destination / "INDEX.md").read_text())
+        state = json.loads((destination / "state/onboarding.json").read_text())
+        self.assertEqual(state["review_status"], "needs-owner-review")
 
     def test_repeat_is_idempotent(self):
         first = cc.compile_context(self.destination, self.plan)

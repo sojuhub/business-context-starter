@@ -53,7 +53,7 @@ It does not turn a saved document into a live booking calendar or order system.
 
 ```mermaid
 flowchart LR
-    A["01 · SHARE<br/>Selected sources"] --> B["02 · REVIEW<br/>Facts, rules and unknowns"]
+    A["01 · DISCOVER<br/>Work services and sources"] --> B["02 · REVIEW<br/>Facts, rules and unknowns"]
     B --> C["03 · TRY<br/>One useful draft"]
     C --> D["04 · REUSE<br/>Check a fresh session"]
     D -. "Ongoing owner correction" .-> B
@@ -63,13 +63,18 @@ flowchart LR
     style D fill:#FFF1C9,stroke:#95630B,color:#49320E
 ```
 
-1. **Start small.** A website, selected document or short explanation is enough. Choose any private material the agent may read.
-2. **Review the understanding.** Check the facts, policies and gaps before they become business context.
-3. **Try a real task.** Prepare a draft using the approved information.
-4. **Verify reuse.** Check that a new session actually reads the saved notes and an ongoing correction.
+1. **Discover how you work.** The agent asks which sites/services you use most and what you do there, then confirms the remaining business sources. With permission, work-profile tabs and recent visits help find candidates; you confirm services before their content is read.
+2. **Collect and fill gaps.** The agent reads approved sources through available connectors or supported browser tools, asks targeted follow-ups, and has you review customers, offerings, terms, workflows, policies, tone and services.
+3. **Save reviewed knowledge.** Keep company knowledge, source links and key excerpts, plus necessary originals such as price lists and manuals. Prepare a useful draft.
+4. **Verify reuse before completion.** A fresh session must read the saved notes and use them in an actual draft. Missing discovery, material gaps, owner review, saved files or session evidence keeps onboarding incomplete.
 
 The agent reuses your instructions and working connections. Login and consent stay
 with the account holder. Unavailable tools and unverified reads must remain visible.
+The agent proceeds from approval to actual reads in the same onboarding. Composio is
+an optional route for missing capabilities, not a required duplicate connection.
+Repository setup means **starter prepared**; agreed source reads and owner review
+must still happen. See [connection execution and completion check](plugins/business-context-starter/references/CONNECT_SOURCES.md).
+The default check validates all completion stages and saved-file hashes. It cannot independently authenticate a provider, judge semantic quality or force a host agent to obey; source-only checks are diagnostic. Stop/defer requests preserve the remaining work.
 
 ## See the idea in a fictional cafe
 
